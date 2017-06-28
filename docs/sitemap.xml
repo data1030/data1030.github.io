@@ -15,6 +15,10 @@
   </url>
   
   <url>
+    <loc>https://data1030.github.io/schedule/</loc>
+  </url>
+  
+  <url>
     <loc>https://data1030.github.io/assignments/</loc>
     <priority>0</priority>
   </url>

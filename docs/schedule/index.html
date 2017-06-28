@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DATA 1030</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">DATA 1030</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Assignments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Notes</a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th>Date</th>
+                    <th>Topic</th>
+                    <th>Part 1</th>
+                    <th>Part 2</th>
+                    <th>Lab</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>9/7</td>
+                    <td>Overview</td>
+                    <td>
+                        Intro to Data Science I
+                        <ul>
+                            <li>What is data science?</li>
+                            <li>Math and CS in data science</li>
+                            <li>The data science process, multiple interpretations</li>
+                            <li>A real-world example</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Intro to Data Science II and Course Logistics
+                        <ul>
+                            <li>Summarizing the example: the data scientist's skillset</li>
+                            <li>Types of data scientists</li>
+                            <li>Recent applications</li>
+                            <li>Course logistics</li>
+                        </ul>
+                    </td>
+                    <td>Intro to data science w/ Jupyter and pandas</td>
+                </tr>
+                <tr>
+                    <th>Module 1: Computer Science</th>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>9/12</td>
+                    <td>CS Review</td>
+                    <td>
+                        Basic CS Primer
+                        <ul>
+                            <li>Computational complexity</li>
+                            <li>Data structures</li>
+                            <ul>
+                                <li>List, tuple, set, dictionary</li>
+                                <li>Stack, queue, heap, BST, priority queue</li>
+                                <li>Graphs: adjacency list, matrix</li>
+                                <li>Hashing</li>
+                            </ul>
+                            <li>Algorithms</li>
+                            <ul>
+                                <li>Sorting: insertion, selection, heap, quicksort, merge sort</li>
+                                <li>Search: BFS, DFS, binary search, string algorithms</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Common technologies</li>
+                            <ul>
+                                <li>APIs</li>
+                                <li>HTML</li>
+                                <li>Javascript</li>
+                                <li>File Formats</li>
+                                <li>Text encodings</li>
+                            </ul>
+                            <li>CS in data science</li>
+                            <ul>
+                                <li>Linear programming</li>
+                                <li>B+ trees</li>
+                                <li>Dataframe</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>Getting Data from Spotify</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>9/14</td>
+                    <td>Hardware</td>
+                    <td>
+                        <ul>
+                            <li>CPUs</li>
+                            <li>Threads</li>
+                            <li>Cache and main memory</li>
+                            <li>Networking</li>
+                            <li>Disk storage</li>
+                            <li>
+                                <a href="https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know">
+                                    Latency numbers
+                                </a>
+                            </li>
+                            <li>Business costs I</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>GPUs</li>
+                            <li>Power supply</li>
+                            <li>Modern processors in ML</li>
+                            <ul>
+                                <li>FPGAs</li>
+                                <li>ASICs: TPUs</li>
+                            </ul>
+                            <li>Business costs II</li>
+                        </ul>
+                    </td>
+                    <td>GPU Computing: Implementing a MLE</td>
+                </tr>
+                <tr>
+                    <th>Module 2: Data Science Crash Course</th>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>9/19</td>
+                    <td>ML Crash Course</td>
+                    <td>
+                        <a href="http://cs.brown.edu/courses/csci1430/lectures_Spring2017/17_Spring2017_MachineLearningCrashCourse_UnsupervisedLearning.pdf">
+                        Unsupervised ML
+                        </a>
+                        <ul>
+                            <li>Dimensionality reduction: PCA</li>
+                            <li>Clustering: kmeans to spectral</li>
+                            <li>Real-world applications</li>
+                            <ul>
+                                <li>Dimensionality reduction: visualization</li>
+                                <li>Clustering: customer segmentation, data exploration</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>
+                        <a href="http://cs.brown.edu/courses/csci1430/lectures_Spring2017/18_Spring2017_MachineLearningCrashCourse_SupervisedLearning.pdf">
+                        Supervised ML
+                        </a>
+                        <ul>
+                            <li>Classification overview</li>
+                            <li>Regression overview</li>
+                            <li>Generalization error</li>
+                            <ul>
+                                <li>Bias-variance</li>
+                                <li>Overfitting</li>
+                            </ul>
+                            <li>Real-world applications</li>
+                            <ul>
+                                <li>Fraud detection</li>
+                                <li>Document classification</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>Classifying Iris Flowers</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>9/21</td>
+                    <td>ML in Practice</td>
+                    <td>
+                        <a href="http://www.ds100.org/sp17/syllabus">
+                        Validation and Feature Engineering I
+                        </a>
+                        <ul>
+                            <li>Training/Test Error</li>
+                            <li>Cross Validation</li>
+                            <li>ROC and AUC</li>
+                            <li>Regularization</li>
+                            <li>Feature selection</li>
+                            <ul>
+                                <li>Correlation</li>
+                                <li>Mutual information</li>
+                                <li>Similarity</li>
+                                <li>Number of features</li>
+                                <li>Selection algorithms</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>
+                        <a href="https://drive.google.com/file/d/0Bze55lezLJhINE1kd3VSODJpYXM/view">
+                        Feature Engineering II
+                        </a>
+                        <ul>
+                            <li>Feature transformation</li>
+                            <ul>
+                                <li>Binning</li>
+                                <li>n-grams</li>
+                                <li>Non-linear transformations</li>
+                            </ul>
+                            <li>Feature extraction</li>
+                        </ul>
+                    </td>
+                    <td>Detecting Fake Reviews</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>9/26</td>
+                    <td>Data Exploration</td>
+                    <td>
+                        Context and Simple Statistics in Practice
+                        <ul>
+                            <li>Business/Domain Knowledge</li>
+                            <li>Other contextual info</li>
+                            <li>Intro Statistics Knowledge Applied</li>
+                            <li>Correlation</li>
+                            <li>Distributions</li>
+                            <li>Plotting</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Exploration w/ ML
+                        <ul>
+                            <li>Segmentation analysis</li>
+                            <li>Deviation analysis</li>
+                            <li>Relationships between variables</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>9/28</td>
+                    <td>Data Preparation</td>
+                    <td>
+                        Tedious Cleaning
+                        <ul>
+                            <li>Single source: Misspellings, missing values, duplicates</li>
+                            <li>Multiple source: Date format conflicts, schema design, overlapping data, etc.</li>
+                            Solutions
+                            <li>Find/Replace</li>
+                            <li>Defaults</li>
+                            <li>DB Constraints, Normalization</li>
+                            <li>Shell: ls -lh, file, wc, zip/unzip, head, tail
+                                <li>Regex, grep</li>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        Statistical methods
+                        <ul>
+                            <li>Edit distance</li>
+                            <li>Similarity metrics</li>
+                            <li>Missing-data imputation</li>
+                            <li>ML: anomaly detection</li>
+                            <li>Other statistical methods</li>
+                            <li>Visualizations</li>
+                            <li>Effects of dirty data</li>
+                            <li>Domain knowledge</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Cleaning Ugly data with Ugly Regex and Co.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Module 3: Conventional Data Engineering</th>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>10/3</td>
+                    <td>Data Management Intro</td>
+                    <td>
+                        Overview
+                        <ul>
+                            <li>Types of data</li>
+                            <li>Flat files</li>
+                            <li>Database use cases in analytics</li>
+                            <li>Relational model</li>
+                            <li>Concept of ETL and Warehousing</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Analytics Schema Design and Relational Algebra
+                        <ul>
+                            <li>OLAP (cube)</li>
+                            <li>Analytics schemas</li>
+                            <ul>
+                                <li>Star schema</li>
+                                <li>Snowflake</li>
+                                <li>BCNF/3NF</li>
+                            </ul>
+                            <li>Normalization</li>
+                            <li>Relational algebra</li>
+                        </ul>
+                    </td>
+                    <td>Data Modeling</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>10/5</td>
+                    <td>SQL
+                        <ul>
+                            <li><a href="http://web.stanford.edu/class/cs145/cs145-notebooks-2016/lecture-2-3/Lecture_2_3_SQL.pdf">Stanford</a></li>
+                            <li><a href="https://drive.google.com/file/d/0B2k285AK-3KEX1ZhRzZmTlVBdzg/view">Berkeley</a></li>
+                            <li><a href="https://cs.brown.edu/courses/csci1951-a/res/static/lec05_sql.pdf">Brown</a></li>
+                        </ul>
+                    </td>
+                    <td>SQL
+                        <ul>
+                            <li>DDL and DML</li>
+                            <li>SELECT (DISTINCT), FROM, WHERE, GROUP BY, HAVING, ORDER BY</li>
+                            <li>aggregates</li>
+                            <li>LIKE, boolean operators, arithmetic operators</li>
+                            <li>Nested queries</li>
+                        </ul>
+                    </td>
+                    <td>SQL
+                        <ul>
+                            <li>Joins</li>
+                            <li>Keys</li>
+                            <li>Constraints</li>
+                            <li>SQL analytics</li>
+                            <ul>
+                                <li>Standard deviation and variance</li>
+                                <li>Median and quartiles</li>
+                                <li>Challenge: Clustering</li>
+                    </td>
+                    </ul>
+                    <td>SQL on Google BigQuery</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>10/10</td>
+                    <td>Database Optimization</td>
+                    <td>
+                        Faster Queries
+                        <ul>
+                            <li>Interactive: from days to minutes</li>
+                            <li>Joins</li>
+                            <li>Indexes</li>
+                            <li>Views</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Database Internals Intro
+                        <ul>
+                            <li>Query parser</li>
+                            <li>Query optimizer</li>
+                            <li>Logical and physical optimizations</li>
+                            <ul>
+                                <li>Equivalence rules</li>
+                                <li>I/O costs</li>
+                            </ul>
+                            <li>Query plan</li>
+                            <ul>
+                    </td>
+                    <td>
+                        Simple ETL
+                    </td>
+                </tr>
+                <tr>
+                    <th>Module 4: Modern Data Engineering</th>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>10/12</td>
+                    <td>Big Data Processing</td>
+                    <td>
+                        Distributed Processing
+                        <ul>
+                            <li>MapReduce</li>
+                            <ul>
+                                <li>Architecture</li>
+                                <li>Apache YARN: Cluster Management</li>
+                                <li>Disk I/O bottleneck</li>
+                            </ul>
+                            <li>Spark</li>
+                            <ul>
+                                <li>In-memory</li>
+                                <li>SparkSQL</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>
+                        Text Search Engines
+                        <ul>
+                            <li>Edit distance</li>
+                            <li>Inverted indexes</li>
+                            <li>n-grams</li>
+                            <li>bag of words</li>
+                            <li>Elasticsearch/Lucene</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Collaborative Filtering with Public Movie Review Data
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>10/17</td>
+                    <td>DB Scalability and Other Options</td>
+                    <td>
+                        Distributed Databases and Concepts
+                        <ul>
+                            <li>Basic concurrency overview</li>
+                            <li>Replication</li>
+                            <li>Federation</li>
+                            <li>Sharding</li>
+                            <li>ACID</li>
+                            <li>CAP theorem</li>
+                            <li>PACELC theorem</li>
+                        </ul>
+                    </td>
+                    <td>
+                        NoSQL and HDFS
+                        <ul>
+                            <li>Use cases</li>
+                            <ul>
+                                <li>Semi-structured data w/ examples</li>
+                                <li>CAP revisited</li>
+                            </ul>
+                            <li>Latency and throughput</li>
+                            <li>Column store: HBase, Cassandra</li>
+                            <li>Other NoSQL formats</li>
+                            <li>Hadoop File System</li>
+                            <ul>
+                                <li>Concurrency</li>
+                                <li>Fault-tolerance</li>
+                            </ul>
+                        </ul>
+                    </td>
+                    <td>Big Data ETL</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>10/19</td>
+                    <td>Data Engineering Overview</td>
+                    <td>
+                        Cloud and Hadoop Ecosystem
+                        <ul>
+                            <li>Cloud</li>
+                            <ul>
+                                <li>Managed database: Azure SQL Database</li>
+                                <li>Managed warehouse: Amazon Redshift</li>
+                                <li>Serverless queries: Google BigQuery</li>
+                                <li>Cloud processing: Amazon Elastic Map Reduce</li>
+                                <li>Text analytics: Amazon Elasticsearch Service</li>
+                            </ul>
+                            <li>Hadoop Ecosystem</li>
+                            <ul>
+                                <li>SQL queries: Hive</li>
+                                <li>SQL-like processing: Pig</li>
+                                <li>Log data ingestion: Flume</li>
+                                <li>Message queue: Kafka</li>
+                                <li>ML: Mahout</li>
+                                <li>Streaming: Spark Streaming</li>
+                    </td>
+                    <td>
+                        Real-time Analytics
+                        <ul>
+                            <li>Data sources</li>
+                            <ul>
+                                <li>Logs</li>
+                                <li>Sales</li>
+                                <li>Clickstream</li>
+                                <li>Messages</li>
+                                <li>Geographic</li>
+                            </ul>
+                            <li>Real-time data pipelines</li>
+                            <li>Data ingestion</li>
+                            <li>Stream processing</li>
+                            <li>Persistent storage</li>
+                            <li>Applications of Streaming Analytics</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Analyze clickstream data from the course website.
+                    </td>
+                </tr>
+                <tr>
+                    <th>Module 5: Topics in Data Engineering</th>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>10/24</td>
+                    <td>Data Engineering Fun Topics</td>
+                    <td>
+                        Quiz 1
+                    </td>
+                    <td>
+                        ??
+                    </td>
+                    <td>
+                        ??
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>10/26</td>
+                    <td>
+                        Data Privacy
+                    </td>
+                    <td>Overview
+                        <ul>
+                            <li>History of breaches</li>
+                            <li>Laws</li>
+                            <li>Data anonymization</li>
+                            <li>PII</li>
+                            <li>PHI</li>
+                            <li>Privacy and utility</li>
+                            <li>Encryption</li>
+                            <li>Replacement</li>
+                            <li>Suppression</li>
+                            <li>Generalization</li>
+                            <li>Pertubation</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Statistical Methods
+                        <ul>
+                            <li>k-anonymity</li>
+                            <li>Differential privacy</li>
+                            <li>Privacy preserving data mining</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Anonymizing Netfix Prize Data to beat De-anonymizing Algorithms
+                    </td>
+                </tr>
+                <tr>
+                    <th>Module 6: Algorithms in Data Science</th>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>10/31</td>
+                    <td>Association Rule Learning</td>
+                    <td>
+                        Association Rules
+                        <ul>
+                            <li>Parts of Association Rule</li>
+                            <li>Support and Confidence</li>
+                            <li>Classification of Association Rule</li>
+                            <li>Examples of Market Basket Analysis</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>ID3</li>
+                            <li>c.45</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>11/2</td>
+                    <td>
+                        Decision Trees
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Decision tree elements</li>
+                            <li>Decision rules</li>
+                            <li>flowchart symbols</li>
+                        </ul>
+                    </td>
+                    <td>Analysis examples</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11/7</td>
+                    <td>Ensemble Methods</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Basics
+                                <ul>
+                                    <li>Simple ensembles</li>
+                                    <li>Mixtures of experts</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Bagging
+                                <ul>
+                                    <li>Bootstrap aggregation</li>
+                                    <li>Random forests</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        Gradient Boosting
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>11/9</td>
+                    <td>Anomaly Detection</td>
+                    <td>
+                        Outliers
+                        <ul>
+                            <li>types</li>
+                            <li>occurrence and causes</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Detection methods
+                        <ul>
+                            <li>graphical</li>
+                            <li>model-based</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Module 7: Communicating Analytics</th>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>11/14</td>
+                    <td>Project Proposals</td>
+                    <td>Student present their project progress</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>11/16</td>
+                    <td><a href="https://drive.google.com/file/d/0Bze55lezLJhITWROdV9PNEE2RGs/view">Visualization</td>
+                    <td>
+                        <ul>
+                            <li>Data visualization best practices</li>
+                            <li>Common types of charts</li>
+                            <li>Scale, color, depth, stacking, context</li>
+                            <li>Lots of examples</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Visualizing high-dim. data</li>
+                            <li>Available tools and use cases</li>
+                            <li>d3.js use cases</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <a href="https://cs.brown.edu/courses/csci1951-a/assignments/d3_lab.html">
+                            Intro to Data Visualization - D3
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Module 8: Topics in Data Science Algorithms</th>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>11/21</td>
+                    <td>TBD/Risk Factors</td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>11/23</td>
+                    <th>Thanksgiving (NO CLASS)</th>
+                    <th>
+                    </th>
+                    <th>
+                    </th>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Module 9: Deep Learning Overview</th>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>11/28</td>
+                    <td>Deep Learning I</td>
+                    <td>
+                        Intro to Neural Nets
+                        <ul>
+                            <li>Backpropagation</li>
+                            <li>Neurons</li>
+                            <li>Neural Net Architecture</li>
+                            <li>Layers</li>
+                            <li>SGD?, ReLU?</li>
+                        </ul>
+                    </td>
+                    <td>
+                        Applications w/ ConvNets
+                        <ul>
+                            <li>Conv Layer</li>
+                            <li>Pooling Layer</li>
+                            <li>Applications: Image Classification, etc.</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>11/30</td>
+                    <td>Deep Learning II</td>
+                    <td>
+                        Tuning
+                        <ul>
+                            <li>Regularization</li>
+                            <li>Dropout</li>
+                            <li>Activation functions</li>
+                            <li>Loss functions</li>
+                        </ul>
+                    </td>
+                    <td>
+                        More ConvNet Uses
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>12/5</td>
+                    <td>Deep Learning III</td>
+                    <td>
+                        Deep NLP
+                        <ul>
+                            <li>More text representations</li>
+                            <li>RNNs</li>
+                            <li>Applications</li>
+                        </ul>
+                    </td>
+                    <td>
+                        GRUs and LSTMs in NLP
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>12/7</td>
+                    <td>Deep Learning IV</td>
+                    <td>
+                        Quiz 2
+                    </td>
+                    <td>
+                        Performance
+                        <ul>
+                            <li>Hardware</li>
+                            <li>Clusters</li>
+                            <li>Cloud</li>
+                            <li>Compression</li>
+                            <li>Recent Deep Learning Breakthroughs</li>
+                        </ul>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>
