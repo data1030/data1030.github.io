@@ -11,15 +11,20 @@ url = "/"
 
 [[menu.main]]
 weight = 2
-name = "Assignments"
-url = "/assignments/"
+name = "Dev Schedule"
+url = "/schedule/"
 
 [[menu.main]]
 weight = 3
-name = "Notes"
-url = "/notes/"
+name = "Assignments"
+url = "/assignment/"
 
 [[menu.main]]
 weight = 4
+name = "Documents"
+url = "/document/"
+
+[[menu.main]]
+weight = 5
 name = "Calendar"
 url = "/calendar/"

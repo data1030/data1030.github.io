@@ -11,39 +11,21 @@
     
     
     <item>
-      <title></title>
-      <link>https://data1030.github.io/assignments/overview/</link>
+      <title>Calendar</title>
+      <link>https://data1030.github.io/calendar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://data1030.github.io/assignments/overview/</guid>
-      <description></description>
+      <guid>https://data1030.github.io/calendar/</guid>
+      <description> Office Hours </description>
     </item>
     
     <item>
-      <title></title>
-      <link>https://data1030.github.io/calendar/calendar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://data1030.github.io/calendar/calendar/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://data1030.github.io/notes/regex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://data1030.github.io/notes/regex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
+      <title>Development Schedule</title>
       <link>https://data1030.github.io/schedule/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://data1030.github.io/schedule/</guid>
-      <description>DATA 1030     DATA 1030 Home(current)  Schedule  Assignments  Notes        Week Date Topic Part 1 Part 2 Lab     1 9/7 Overview  Intro to Data Science I  What is data science? Math and CS in data science The data science process, multiple interpretations A real-world example    Intro to Data Science II and Course Logistics  Summarizing the example: the data scientist&#39;s skillset Types of data scientists Recent applications Course logistics   Intro to data science w/ Jupyter and pandas   Module 1: Computer Science   2 9/12 CS Review  Basic CS Primer  Computational complexity Data structures  List, tuple, set, dictionary Stack, queue, heap, BST, priority queue Graphs: adjacency list, matrix Hashing  Algorithms  Sorting: insertion, selection, heap, quicksort, merge sort Search: BFS, DFS, binary search, string algorithms      Common technologies  APIs HTML Javascript File Formats Text encodings  CS in data science  Linear programming B+ trees Dataframe    Getting Data from Spotify   2 9/14 Hardware   CPUs Threads Cache and main memory Networking Disk storage  Latency numbers   Business costs I     GPUs Power supply Modern processors in ML  FPGAs ASICs: TPUs  Business costs II   GPU Computing: Implementing a MLE   Module 2: Data Science Crash Course   3 9/19 ML Crash Course  Unsupervised ML   Dimensionality reduction: PCA Clustering: kmeans to spectral Real-world applications  Dimensionality reduction: visualization Clustering: customer segmentation, data exploration     Supervised ML   Classification overview Regression overview Generalization error  Bias-variance Overfitting  Real-world applications  Fraud detection Document classification    Classifying Iris Flowers   3 9/21 ML in Practice  Validation and Feature Engineering I   Training/Test Error Cross Validation ROC and AUC Regularization Feature selection  Correlation Mutual information Similarity Number of features Selection algorithms     Feature Engineering II   Feature transformation  Binning n-grams Non-linear transformations  Feature extraction   Detecting Fake Reviews   4 9/26 Data Exploration  Context and Simple Statistics in Practice  Business/Domain Knowledge Other contextual info Intro Statistics Knowledge Applied Correlation Distributions Plotting    Exploration w/ ML  Segmentation analysis Deviation analysis Relationships between variables      4 9/28 Data Preparation  Tedious Cleaning  Single source: Misspellings, missing values, duplicates Multiple source: Date format conflicts, schema design, overlapping data, etc.</description>
+      <description>Week Date Topic Part 1 Part 2 Lab     1 9/7 Overview  Intro to Data Science I  What is data science? Math and CS in data science The data science process, multiple interpretations A real-world example    Intro to Data Science II and Course Logistics  Summarizing the example: the data scientist&#39;s skillset Types of data scientists Recent applications Course logistics   Intro to data science w/ Jupyter and pandas   Module 1: Computer Science   2 9/12 CS Review  Basic CS Primer  Computational complexity Data structures  List, tuple, set, dictionary Stack, queue, heap, BST, priority queue Graphs: adjacency list, matrix Hashing  Algorithms  Sorting: insertion, selection, heap, quicksort, merge sort Search: BFS, DFS, binary search, string algorithms      Common technologies  APIs HTML Javascript File Formats Text encodings  CS in data science  Linear programming B+ trees Dataframe    Getting Data from Spotify   2 9/14 Hardware   CPUs Threads Cache and main memory Networking Disk storage  Latency numbers   Business costs I     GPUs Power supply Modern processors in ML  FPGAs ASICs: TPUs  Business costs II   GPU Computing: Implementing a MLE   Module 2: Data Science Crash Course   3 9/19 ML Crash Course  Unsupervised ML   Dimensionality reduction: PCA Clustering: kmeans to spectral Real-world applications  Dimensionality reduction: visualization Clustering: customer segmentation, data exploration     Supervised ML   Classification overview Regression overview Generalization error  Bias-variance Overfitting  Real-world applications  Fraud detection Document classification    Classifying Iris Flowers   3 9/21 ML in Practice  Validation and Feature Engineering I   Training/Test Error Cross Validation ROC and AUC Regularization Feature selection  Correlation Mutual information Similarity Number of features Selection algorithms     Feature Engineering II   Feature transformation  Binning n-grams Non-linear transformations  Feature extraction   Detecting Fake Reviews   4 9/26 Data Exploration  Context and Simple Statistics in Practice  Business/Domain Knowledge Other contextual info Intro Statistics Knowledge Applied Correlation Distributions Plotting    Exploration w/ ML  Segmentation analysis Deviation analysis Relationships between variables      4 9/28 Data Preparation  Tedious Cleaning  Single source: Misspellings, missing values, duplicates Multiple source: Date format conflicts, schema design, overlapping data, etc.</description>
     </item>
     
   </channel>

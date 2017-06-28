@@ -1,10 +1,6 @@
 {{ partial "header.html" . }}
   <div class="container">
    <h1 id="title">{{ .Title }}</h1>
-        <ul id="list">
-            {{ range .Data.Pages }}
-                {{ .Render "li"}}
-            {{ end }}
-        </ul>
+    {{ .Content }}
   </div>
 {{ partial "footer.html" . }}
