@@ -1,0 +1,25 @@
+baseURL = "https://data1030.github.io"
+languageCode = "en-us"
+title = "DATA 1030"
+
+publishDir = "docs"
+
+[[menu.main]]
+weight = 1
+name = "Home"
+url = "/"
+
+[[menu.main]]
+weight = 2
+name = "Assignments"
+url = "/assignments/"
+
+[[menu.main]]
+weight = 3
+name = "Notes"
+url = "/notes/"
+
+[[menu.main]]
+weight = 4
+name = "Calendar"
+url = "/calendar/"
