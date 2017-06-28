@@ -3,6 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://data1030.github.io/assignment/cs-review/</loc>
+    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/document/regex/</loc>
+    <lastmod>2017-06-28T15:11:53-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/assignment/</loc>
+    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://data1030.github.io/calendar/</loc>
   </url>
   
@@ -13,11 +29,18 @@
   
   <url>
     <loc>https://data1030.github.io/</loc>
+    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://data1030.github.io/schedule/</loc>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/document/</loc>
+    <lastmod>2017-06-28T15:11:53-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
