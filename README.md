@@ -40,7 +40,7 @@ For example, use
 hugo new blog/test.md
 ```
 
-to generate a basic empty markdown file in the blog directory.
+to generate a basic empty markdown file called `test.md` in the `blog` directory.
 
 See https://gohugo.io for more information.
 
@@ -51,6 +51,7 @@ See https://gohugo.io for more information.
 * Domain Name
 * Integrate with MathJax to enable LaTex support
 * Assignment release/due dates on schedule
+* Allow the course schedule to include links
 * Design and link lab intructions/notebooks
 * Design and link notes
 * Integrate nbviewer
