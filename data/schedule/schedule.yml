@@ -1,0 +1,145 @@
+rows:
+- module: "module 0: data science overview"
+- date: 9/7
+  topic: "course overview"
+  notes: ""
+  lab: "intro to data science"
+  announcements: ""
+- module: "module 1: computer science"
+- date: 9/12
+  topic: "cs review"
+  notes: ""
+  lab: "getting data from spotify"
+  announcements: ""
+- date: 9/14
+  topic: hardware
+  notes: ""
+  lab: "gpu computing: implementing a mle"
+  announcements: ""
+- module: "module 2: data science crash course"
+- date: 9/19
+  topic: "ml crash course"
+  notes: ""
+  lab: "classifying iris flowers"
+  announcements: ""
+- date: 9/21
+  topic: "ml in practice"
+  notes: ""
+  lab: "detecting fake reviews"
+  announcements: ""
+- date: 9/26
+  topic: "data exploration"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 9/28
+  topic: "data preparation"
+  notes: ""
+  lab: "cleaning ugly data with regex and co."
+  announcements: ""
+- module: "module 3: data management"
+- date: 10/3
+  topic: "data management intro"
+  notes: ""
+  lab: "data modeling"
+  announcements: ""
+- date: 10/5
+  topic: sql
+  notes: "sql on google bigquery"
+  lab: ""
+- date: 10/10
+  topic: "database optimization"
+  notes: ""
+  lab: "simple etl"
+  announcements: ""
+- module: "module 4: big data engineering"
+- date: 10/12
+  topic: "big data processing"
+  notes: ""
+  lab: "collaborative filtering with public movie review data"
+  announcements: ""
+- date: 10/17
+  topic: "db scalability and other options"
+  notes: ""
+  lab: "big data etl"
+  announcements: ""
+- date: 10/19
+  topic: "data engineering overview"
+  notes: ""
+  lab: "analyze clickstream data from the course website."
+  announcements: ""
+- module: "module 5: topics in data engineering"
+- date: 10/24
+  topic: "data engineering fun topics"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 10/26
+  topic: "data privacy"
+  notes: ""
+  lab: "anonymizing netfix prize data to beat de-anonymizing algorithms"
+  announcements: ""
+- module: "module 6: algorithms in data science"
+- date: 10/31
+  topic: "association rule learning"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/2
+  topic: "decision trees"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/7
+  topic: "ensemble methods"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/9
+  topic: "anomaly detection"
+  notes: ""
+  lab: ""
+  announcements: ""
+- module: "module 7: communicating analytics"
+- date: 11/14
+  topic: "project proposals"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/16
+  topic: visualization
+  notes: ""
+  lab: "intro to data visualization"
+  announcements: ""
+- module: "module 8: more data science algorithms"
+- date: 11/21
+  topic: "tbd/risk factors"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/23
+  topic: "thanksgiving (no class)"
+  notes: ""
+  lab: ""
+  announcements: ""
+- module: "module 9: deep learning overview"
+- date: 11/28
+  topic: "intro to neural networks"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 11/30
+  topic: "tuning neural nets"
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 12/5
+  topic: rnns
+  notes: ""
+  lab: ""
+  announcements: ""
+- date: 12/7
+  topic: "deep learning in practice"
+  notes: ""
+  lab: ""
+  announcements: ""

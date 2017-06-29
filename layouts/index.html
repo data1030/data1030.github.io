@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 <div class="container">
     <h1>Course Schedule</h1>
+    <h6>Last Updated: 6/28/17</h6>
     <table class="table table-sm">
         <thead>
             <tr>
@@ -8,29 +9,31 @@
                 <th>Topic</th>
                 <th>Notes</th>
                 <th>Lab</th>
-                <th>Assignment</th>
+                <th>Announcements</th>
             </tr>
         </thead>
         <tbody>
-            <tr class="table-success">
-                <th class="text-center" colspan="100%">Module 0: Data Science Overview</th>
-            </tr>
-            <tr>
-                <td>9/7</td>
-                <td>Course Overview</td>
-                <td></td>
-                <td>Intro to Data Science</td>
-                <td></td>
-            </tr>
-            {{ partial "modules/cs-overview.html" . }}
-            {{ partial "modules/data-science.html" . }}
-            {{ partial "modules/data-management.html" . }}
-            {{ partial "modules/big-data.html" . }}
-            {{ partial "modules/topics-in-data.html" . }}
-            {{ partial "modules/algorithms.html" . }}
-            {{ partial "modules/communication.html" . }}
-            {{ partial "modules/topics-in-algorithms.html" . }}
-            {{ partial "modules/deep-learning.html" . }}
+        {{ range .Site.Data.schedule }}
+            {{ range .rows }}
+                {{ if .module }}
+                    <tr>
+                        <td class="module"
+                            colspan="100%"
+                            align="center">
+                            {{ .module }}
+                        </td>
+                    </tr>
+                {{ else }}
+                    <tr>
+                        <td>{{ .date }}</td>
+                        <td>{{ .topic }}</td>
+                        <td>{{ .notes }}</td>
+                        <td>{{ .lab }}</td>
+                        <td>{{ .announcements }}</td>
+                    </tr>
+                {{ end }}
+            {{ end }}
+        {{ end }}
         </tbody>
     </table>
 </div>
