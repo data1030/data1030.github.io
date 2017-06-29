@@ -9,7 +9,6 @@ To start working with this project in OS X, install Hugo and then checkout the s
   brew install hugo
   git clone https://github.com/data1030/data1030.github.io.git
   cd data1030.github.io
-  git checkout remotes/origin/source
 ```
 
 To run a local server, use the command
@@ -25,7 +24,7 @@ the `master` branch. *This is a workaround to an unfixable problem.*
 Run the following to do so
 ```
   hugo # Generates the files in the docs folder
-  . # Make your changes here
+  . # Make your commit here
   .
   .
   git subtree --prefix=docs push origin master
