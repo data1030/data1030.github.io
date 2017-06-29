@@ -1,6 +1,5 @@
 # data1030.github.io
 
-
 ## Contributing
 To start working with this project in OS X, install Hugo and then checkout the source branch.
 
@@ -32,12 +31,29 @@ Run the following to do so
 
 ### File Organization
 
-The course schedule on the homepage can be edited by modifying the HTML files in the `layouts/modules` directory.
-This is suboptimal and should be changed in the future.
+The course schedule on the homepage can be edited by modifying `data/schedule.yml`.
 All other files should be added to the contents folder.
+
+For example, use
+
+```
+hugo new blog/test.md
+```
+
+to generate a basic empty markdown file in the blog directory.
 
 See https://gohugo.io for more information.
 
+
+### Todo
+
+* Licensing
+* Domain Name
+* Integrate with MathJax to enable LaTex support
+* Assignment release/due dates on schedule
+* Design and link lab intructions/notebooks
+* Design and link notes
+* Integrate nbviewer
 
 
   

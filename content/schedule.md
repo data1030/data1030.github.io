@@ -1,9 +1,15 @@
 +++
-title = "Development Schedule"
+title = "Detailed Schedule"
 +++
 
+_Todo:_
+
+* Links in schedule.yml
+* Github repository for notebooks
+
+
     <div class="container">
-        <table class="table">
+        <table class="table table-bordered">
             <thead>
                 <tr>
                     <th>Week</th>

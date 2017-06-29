@@ -1,8 +1,11 @@
 {{ partial "header.html" . }}
 <div class="container">
+    <div class="jumbotron brown">
+        {{ .Content }}
+    </div>
     <h1>Course Schedule</h1>
     <h6>Last Updated: 6/28/17</h6>
-    <table class="table table-sm">
+    <table class="table table-sm table-bordered">
         <thead>
             <tr>
                 <th>Date</th>
@@ -13,27 +16,23 @@
             </tr>
         </thead>
         <tbody>
-        {{ range .Site.Data.schedule }}
-            {{ range .rows }}
+            {{ range .Site.Data.schedule.rows }}
                 {{ if .module }}
-                    <tr>
-                        <td class="module"
-                            colspan="100%"
-                            align="center">
-                            {{ .module }}
-                        </td>
-                    </tr>
+                <tr>
+                    <td class="brown" colspan="100%" align="center">
+                        {{ .module }}
+                    </td>
+                </tr>
                 {{ else }}
-                    <tr>
-                        <td>{{ .date }}</td>
-                        <td>{{ .topic }}</td>
-                        <td>{{ .notes }}</td>
-                        <td>{{ .lab }}</td>
-                        <td>{{ .announcements }}</td>
-                    </tr>
+                <tr>
+                    <td>{{ .date }}</td>
+                    <td>{{ .topic }}</td>
+                    <td>{{ .notes }}</td>
+                    <td>{{ .lab }}</td>
+                    <td>{{ .announcements }}</td>
+                </tr>
                 {{ end }}
             {{ end }}
-        {{ end }}
         </tbody>
     </table>
 </div>

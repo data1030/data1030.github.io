@@ -6,18 +6,53 @@
     <description>Recent content in Assignments on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2017 15:12:58 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 03:33:48 -0700</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/assignment/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CS Review</title>
-      <link>https://data1030.github.io/assignment/cs-review/</link>
-      <pubDate>Wed, 28 Jun 2017 15:12:58 -0700</pubDate>
+      <title>Music ETL</title>
+      <link>https://data1030.github.io/assignment/project/music-etl/</link>
+      <pubDate>Sun, 29 Oct 2017 03:33:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/cs-review/</guid>
-      <description>Review stuff</description>
+      <guid>https://data1030.github.io/assignment/project/music-etl/</guid>
+      <description>Music Music Data Around Us Possible datasets:
+ Million Song Dataset - Audio Features Spotify - General Last.fm Billboard Youtube Twitter Reddit Google Trends Blogs Critics Sales  Cleaning the data  Typos everwhere: social media, billboard charts Extracting features from tweets, comments, reviews  Before We Overwork Ourselves  How well do we need to merge the data? What kind of questions are we going to ask?  Putting it together  Different album spellings, different artist formats LastFM popularity vs Spotify popularity vs Twitter  Loading the data  Do we need a staging area?</description>
+    </item>
+    
+    <item>
+      <title>Fake Reviews</title>
+      <link>https://data1030.github.io/assignment/project/amazon-reviews/</link>
+      <pubDate>Thu, 05 Oct 2017 03:17:08 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/project/amazon-reviews/</guid>
+      <description>You can download the notebook over here.
+Motivation Can we trust Amazon reviews? If Walmart were to have a review system as good as Yelp&amp;rsquo;s, would it be able to push back against Amazon?
+Getting the data public datasets web scraping - legality  Initial Exploration: The orbital shaker Some people can get away with blatantly fake reviews. How can we combat this? Why hasn&amp;rsquo;t Amazon filtered out the easy pickings?</description>
+    </item>
+    
+    <item>
+      <title>Algorithmic Trading</title>
+      <link>https://data1030.github.io/assignment/project/algo-trading/</link>
+      <pubDate>Thu, 21 Sep 2017 15:12:58 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/project/algo-trading/</guid>
+      <description>Create Your Strategy Types of stategies  momentum baseline etc.  How much risk can you bear? What are the buying and selling fees?
+Analyze  download historical data or use an API backtest check for overfitting use charts  Improve  more advanced methods  Halfway through the assignment: the game begins Submit your code. Through some interface, you can see how your model(s) are performing on the current market compared to your classmates.</description>
+    </item>
+    
+    <item>
+      <title>Intro to Data Science</title>
+      <link>https://data1030.github.io/assignment/lab/intro/</link>
+      <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/lab/intro/</guid>
+      <description>Here&amp;rsquo;s an intro assignment I&amp;rsquo;ve been working on using a dataset from kaggle.
+Lab: Intro to Pandas and the Data Science Process Due: 6/15/2016
+Prompt: TBD
+Part 0: Overview In this assignment, you will learn how to use the Python Data Analysis Library (pandas) to transform, analyze, and visualize data. Begin below by importing the relevant modules. Be sure to delete or comment out the
+raise NotImplementedError()  statements.</description>
     </item>
     
   </channel>

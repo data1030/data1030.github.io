@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DATA 1030</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/css/data1030.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">DATA 1030</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/schedule/">Detailed Schedule</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assignment/">Assignments</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/document/">Documents</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/calendar/">Calendar</a>
+                    </li>
+                    
+                </ul>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <h1 id="title">Intro to Data Science</h1>
+    
+
+<p>Here&rsquo;s an intro assignment I&rsquo;ve been working on using a dataset from kaggle.</p>
+
+<h1 id="lab-intro-to-pandas-and-the-data-science-process">Lab: Intro to Pandas and the Data Science Process</h1>
+
+<p>Due: 6/15/2016</p>
+
+<p>Prompt: TBD</p>
+
+<h2 id="part-0-overview">Part 0: Overview</h2>
+
+<p>In this assignment, you will learn how to use the Python Data Analysis Library (pandas) to transform, analyze, and visualize data. Begin below by importing the relevant modules. Be sure to delete or comment out the</p>
+
+<pre><code class="language-python">raise NotImplementedError()
+</code></pre>
+
+<p>statements.</p>
+
+<pre><code class="language-python">import pandas
+</code></pre>
+
+<h2 id="part-1-data-processing">Part 1: Data Processing</h2>
+
+<h3 id="1-1-reading-data">1.1 Reading data</h3>
+
+<p>Data is often stored in comma-separated values (CSV) files like <code>API_ILO_country_YU.csv</code>.</p>
+
+<p><strong><em>Task:</em> Use the documentation for <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html"><code>pandas.read_csv()</code></a> to help you load your file to a variable called <code>dataframe</code>.</p>
+
+<p>Hint: <code>pandas.read_csv</code> only has 1 required argument.&lt;/strong</p>
+
+<pre><code class="language-python"># YOUR CODE HERE
+raise NotImplementedError()
+# dataframe = ...
+</code></pre>
+
+<pre><code>-----------------------------------------------------------------
+
+NotImplementedError             Traceback (most recent call last)
+
+&lt;ipython-input-2-906cfa5a80c4&gt; in &lt;module&gt;()
+      1 # YOUR CODE HERE
+----&gt; 2 raise NotImplementedError()
+      3 # dataframe = ...
+
+
+NotImplementedError: 
+</code></pre>
+
+<pre><code class="language-python">### TEST CASES: RUN TO CHECK
+
+import numpy as np
+assert type(dataframe) is pandas.core.frame.DataFrame
+assert dataframe.ndim is 2
+assert dataframe.shape[0] is 219
+assert dataframe.shape[1] is 7
+
+test_top = np.array([['Afghanistan', 'AFG', 20.6000003815, 20.8999996185, 19.7000007629,
+        21.1000003815, 20.7999992371],
+       ['Angola', 'AGO', 10.800000190699999, 10.6999998093, 10.6999998093,
+        10.6000003815, 10.5],
+       ['Albania', 'ALB', 25.7999992371, 27.0, 28.2999992371,
+        28.7000007629, 29.2000007629],
+       ['Arab World', 'ARB', 25.0222141591, 28.1175156719, 29.1132120157,
+        29.335306043600003, 29.7045691168],
+       ['United Arab Emirates', 'ARE', 9.8000001907, 9.8000001907,
+        9.8000001907, 9.8999996185, 10.0],
+       ['Argentina', 'ARG', 19.5, 18.7999992371, 18.3999996185,
+        19.7000007629, 21.2999992371],
+       ['Armenia', 'ARM', 38.2999992371, 38.7000007629, 35.0, 32.5,
+        35.0999984741],
+       ['Australia', 'AUS', 11.399999618499999, 11.399999618499999,
+        11.699999809300001, 12.199999809300001, 13.100000381500001],
+       ['Austria', 'AUT', 8.8000001907, 8.1999998093, 8.6999998093,
+        9.1000003815, 9.1999998093],
+       ['Azerbaijan', 'AZE', 14.600000381500001, 14.5, 14.300000190699999,
+        13.399999618499999, 13.600000381500001]], dtype='object')
+
+assert np.array_equal(dataframe.values[0:10], test_top)
+
+# Prints the data
+dataframe
+</code></pre>
+
+<pre><code>-----------------------------------------------------------------
+
+NameError                       Traceback (most recent call last)
+
+&lt;ipython-input-3-9cc3f3d72abf&gt; in &lt;module&gt;()
+      2 
+      3 import numpy as np
+----&gt; 4 assert type(dataframe) is pandas.core.frame.DataFrame
+      5 assert dataframe.ndim is 2
+      6 assert dataframe.shape[0] is 219
+
+
+NameError: name 'dataframe' is not defined
+</code></pre>
+
+<h3 id="1-2-viewing-data">1.2 Viewing data</h3>
+
+<p>Congrats. You&rsquo;ve successfully loaded the data into an object called a <code>Dataframe</code>. For now, think of it as a two dimensional table. Lets see what some <code>Dataframe</code> methods print:</p>
+
+<pre><code>dataframe
+dataframe.columns
+dataframe.head()
+dataframe.head(10)
+dataframe.tail(4)
+dataframe.nlargest(5, '2014')
+dataframe.nsmallest(8, '2011')
+</code></pre>
+
+<p><strong><em>Task:</em> Comment below why <code>dataframe.nlargest(5, 2014)</code> results in <code>KeyError: 2014</code> while <code>dataframe.nlargest(5, '2014')</code> does.</p>
+
+<p>Hint: look at the data types of the columns. </strong></p>
+
+<pre><code class="language-python"># YOUR CODE HERE
+raise NotImplementedError()
+</code></pre>
+
+<h3 id="1-3-data-transformation">1.3 Data Transformation</h3>
+
+<p>Even with only 219 rows, this table is a bit hard to read. Let&rsquo;s use <code>Dataframe</code> methods to find subsets of the data what we want. Try out the following methods:</p>
+
+<h4 id="column-selection">Column selection:</h4>
+
+<pre><code>dataframe['2010'] - Single column selection
+dataframe[['Country Name', '2011', '2012']] - Multiple column selection
+dataframe.iloc[:, 3] - 4rd column
+dataframe.iloc[:, 2:5] - columns 3 to 5
+</code></pre>
+
+<h4 id="row-selection">Row selection:</h4>
+
+<pre><code>dataframe.iloc[191] - 192th row
+dataframe.iloc[0:10] - First 10 rows
+dataframe[dataframe['2010'] &gt; 40] - Boolean conditions, rows where 2010 column value is greater than 40
+</code></pre>
+
+<h4 id="combinations">Combinations:</h4>
+
+<pre><code>dataframe.iloc[12:14, 0:4]
+dataframe[['Country Name', '2011', '2012']][dataframe['2012'] &lt; 10]
+dataframe[dataframe['2012'] &lt; 10].iloc[1:3, 2:5]
+</code></pre>
+
+<p><strong><em>Task</em>: Find the <em>country name</em> and <em>country code</em> of all rows where:</p>
+
+<ul>
+<li>the 2010 unemployment rate is higher than 2014 unemployment rate, and</li>
+<li>the 2014 unemployment rate is above 20%</strong></li>
+</ul>
+
+<pre><code class="language-python"># YOUR CODE HERE
+raise NotImplementedError()
+</code></pre>
+
+<h2 id="part-2-data-analysis">Part 2: Data Analysis</h2>
+
+<p>You&rsquo;ve ingested the data. Now it&rsquo;s time to make discoveries.</p>
+
+<h3 id="2-1-initial-exploration">2.1 Initial Exploration</h3>
+
+<p>All of these numbers, where to start. How can we quickly find interesting trends? Maybe graphs can help.</p>
+
+<p><strong><em>Task:</em> Plot the graph with <a href="https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.plot.html"><code>pandas.DataFrame.plot</code></a>
+</strong></p>
+
+<pre><code class="language-python">%matplotlib inline
+
+# Run code to plot
+dataframe.plot(kind='bar')
+</code></pre>
+
+<p><strong>Task: There&rsquo;s clearly too many rows being graphed. Show a more manageble number of countries (say the first 10). Then, label the x axis.</strong></p>
+
+<pre><code class="language-python">%matplotlib inline
+# YOUR CODE HERE
+raise NotImplementedError()
+</code></pre>
+
+<p>Now that we have a readable chart, we can start looking for interesting observations.</p>
+
+<p>One of the labels <code>'Arab World'</code>. While clearly this is not a country name, there is definitely a noticeable trend going on. Our end goal is to communicate how events in the Arab World have effected unemployment.</p>
+
+<h3 id="2-2-research-and-domain-knowledge">2.2 Research and Domain Knowledge</h3>
+
+<p>Before we can do analysis we should make sure this trend is meaningful. Use Google, Wikipedia, etc. to help you figure out.</p>
+
+<p>Here are some questions to get you started:</p>
+
+<ul>
+<li><p>Is the youth unemployment rate high? Maybe <code>dataframe.describe()</code> can tell us something.</p></li>
+
+<li><p>By how much does unemployment increase during these 5 years, approximately? Is this difference big enough for us to look into</p></li>
+
+<li><p>What is the Arab World? What countries are in this block?</p></li>
+
+<li><p>What major events occurred around 2010-2014?</p></li>
+</ul>
+
+<p>This section is ungraded.</p>
+
+<p>SPACE TO WRITE NOTES</p>
+
+<pre><code class="language-python"># SPACE TO TRY OUT CODE
+# EX: dataframe.describe()
+# EX: dataframe[dataframe['Country Name'] == 'Arab World']
+</code></pre>
+
+<h2 id="part-3-data-communication">Part 3: Data Communication</h2>
+
+<p>How is unemployment related to the Arab Spring? What caused the spike?</p>
+
+<p><em>Task</em>: Write a short report (~2 paragraphs) about the data and what it tells us.</p>
+
+<p>YOUR ANSWER HERE</p>
+
+<h2 id="summary">Summary</h2>
+
+<h3 id="pandas">Pandas</h3>
+
+<h4 id="modules">Modules</h4>
+
+<pre><code>import pandas as pd
+</code></pre>
+
+<h4 id="i-o">I/O</h4>
+
+<pre><code>pd.read_csv()
+df.to_csv()
+</code></pre>
+
+<h4 id="indexing">Indexing</h4>
+
+<pre><code>df[column_name]
+df[[column1, column2, ...]]
+df.iloc[a:b,c:d]
+df[boolean condition]
+</code></pre>
+
+<h4 id="exploration">Exploration</h4>
+
+<pre><code>df.describe()
+df.plot()
+</code></pre>
+
+</div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

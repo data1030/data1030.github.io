@@ -6,18 +6,29 @@
     <description>Recent content in Documents on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Jun 2017 15:11:53 -0700</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jun 2017 07:03:48 -0700</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/document/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Syllabus</title>
+      <link>https://data1030.github.io/document/course/syllabus/</link>
+      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/document/course/syllabus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Regex</title>
-      <link>https://data1030.github.io/document/regex/</link>
+      <link>https://data1030.github.io/document/notes/regex/</link>
       <pubDate>Wed, 28 Jun 2017 15:11:53 -0700</pubDate>
       
-      <guid>https://data1030.github.io/document/regex/</guid>
-      <description>Regex sucks</description>
+      <guid>https://data1030.github.io/document/notes/regex/</guid>
+      <description>This was downloaded from a Jupyter notebook. Markdown downloads seem to work better than HTML downloads.
+Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
+Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.</description>
     </item>
     
   </channel>

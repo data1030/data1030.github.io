@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DATA 1030</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/css/data1030.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">DATA 1030</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/schedule/">Detailed Schedule</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assignment/">Assignments</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/document/">Documents</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/calendar/">Calendar</a>
+                    </li>
+                    
+                </ul>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <h1 id="title">Regex</h1>
+    
+
+<p>This was downloaded from a Jupyter notebook. Markdown downloads seem to work
+better than HTML downloads.</p>
+
+<h1 id="regular-expressions">Regular Expressions</h1>
+
+<p>More powerful and concise than the built-in string functions in most programming languages, <em>regular expressions</em> can be useful time-savers for many data cleaning tasks involving strings.</p>
+
+<p><img src="https://qph.ec.quoracdn.net/main-qimg-5eec634fc9c788ba16e4479a914681a9"></p>
+
+<h3 id="definition">Definition</h3>
+
+<p>A <strong>regular expression</strong> (also called <strong>regex</strong> or <strong>regexp</strong>) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &ldquo;find&rdquo; or &ldquo;find and replace&rdquo; operations on strings.<sup>[1]</sup></p>
+
+<h3 id="regex-in-python">Regex in Python</h3>
+
+<p>By importing the <code>re</code> module, you can use regular expressions within your Python scripts while cleaning data. Below is an example usage of the <code>re</code> module:</p>
+
+<pre><code class="language-python">import re
+p = re.compile('test') # A pattern corresponding to the string 'test'
+
+# We now see which strings match this pattern
+print(p.match('test'))
+print(p.match('tes')) # Not a match
+print(p.match('Test')) # Not a match!
+print(p.match('testing'))
+print(p.match('a test')) # Not a match? How about p.search('a test')
+</code></pre>
+
+<pre><code>&lt;_sre.SRE_Match object; span=(0, 4), match='test'&gt;
+None
+None
+&lt;_sre.SRE_Match object; span=(0, 4), match='test'&gt;
+None
+</code></pre>
+
+<h3 id="special-characters">Special characters</h3>
+
+<p>As you can see, we are still limited in what we can do. With special characters, we can match multiple characters, repeated characters, and various other types of patterns. Below are the main special characters.</p>
+
+<p><code>. ^ $* + ? { } [ ] \ | ( )</code></p>
+
+<p>Here are some examples using the <code>re</code> module.</p>
+
+<pre><code class="language-python">p1 = re.compile('[abc]') # Match the letters a, b, or c
+
+print(p1.match('ad'))
+print(p1.match('bump'))
+print(p1.match('dog'))
+
+
+p2 = re.compile('[a-z]') # Match all lowercase letters
+print(p2.match('good'))
+print(p2.match('DAMN'))
+
+p3 = re.compile('\[') # Matches the character '['
+print(p3.match('[app]'))
+print(p3.match('(horse)'))
+</code></pre>
+
+<pre><code>&lt;_sre.SRE_Match object; span=(0, 1), match='a'&gt;
+&lt;_sre.SRE_Match object; span=(0, 1), match='b'&gt;
+None
+&lt;_sre.SRE_Match object; span=(0, 1), match='g'&gt;
+None
+&lt;_sre.SRE_Match object; span=(0, 1), match='['&gt;
+None
+</code></pre>
+
+<p>Now that you have a basic understanding of how to use regexes in python, all there is to do is practice. Below are some resources to help you see what you can do with regular expressions:</p>
+
+<h3 id="python-regex-howto">Python Regex HOWTO</h3>
+
+<p><table border="1" class="docutils">
+<colgroup>
+<col width="28%">
+<col width="72%">
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Method/Attribute</th>
+<th class="head">Purpose</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">match()</span></code></td>
+<td>Determine if the RE matches at the beginning
+of the string.</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">search()</span></code></td>
+<td>Scan through a string, looking for any
+location where this RE matches.</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal"><span class="pre">findall()</span></code></td>
+<td>Find all substrings where the RE matches, and
+returns them as a list.</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal"><span class="pre">finditer()</span></code></td>
+<td>Find all substrings where the RE matches, and
+returns them as an <a class="reference internal" href="../glossary.html#term-iterator"><span class="xref std std-term">iterator</span></a>.</td>
+</tr>
+</tbody>
+</table>
+<a href="https://docs.python.org/3/howto/regex.html#regex-howto">https://docs.python.org/3/howto/regex.html#regex-howto</a></p>
+
+<h3 id="regex-on-the-command-line-grep">Regex on the command line: <code>grep</code></h3>
+
+<p><a href="https://en.wikipedia.org/wiki/Grep">https://en.wikipedia.org/wiki/Grep</a></p>
+
+<p><a href="http://dev-notes.eu/2016/10/grep-commands-cheatsheet/">http://dev-notes.eu/2016/10/grep-commands-cheatsheet/</a></p>
+
+<p><a href="http://www.ericagamet.com/wp-content/uploads/2016/04/Erica-Gamets-GREP-Cheat-Sheet.pdf">http://www.ericagamet.com/wp-content/uploads/2016/04/Erica-Gamets-GREP-Cheat-Sheet.pdf</a></p>
+
+<p><img src= "http://www.ericagamet.com/wp-content/uploads/2016/04/Erica-Gamets-GREP-Cheat-Sheet.pdf"></p>
+
+<h3 id="regex-quick-reference">Regex Quick Reference</h3>
+
+<p><img src = https://s-media-cache-ak0.pinimg.com/originals/5f/91/a2/5f91a29d8276e29e058df23e4d9c51da.png></p>
+
+<p>1: <a href="https://en.wikipedia.org/wiki/Regular_expression">https://en.wikipedia.org/wiki/Regular_expression</a></p>
+
+</div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

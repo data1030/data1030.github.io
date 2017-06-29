@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://data1030.github.io/assignment/cs-review/</loc>
-    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
+    <loc>https://data1030.github.io/assignment/project/music-etl/</loc>
+    <lastmod>2017-10-29T03:33:48-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://data1030.github.io/document/regex/</loc>
+    <loc>https://data1030.github.io/assignment/project/amazon-reviews/</loc>
+    <lastmod>2017-10-05T03:17:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/assignment/project/algo-trading/</loc>
+    <lastmod>2017-09-21T15:12:58-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/assignment/lab/intro/</loc>
+    <lastmod>2017-09-08T03:17:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/document/course/syllabus/</loc>
+    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/document/notes/regex/</loc>
     <lastmod>2017-06-28T15:11:53-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://data1030.github.io/assignment/</loc>
-    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
+    <lastmod>2017-10-29T03:33:48-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -28,19 +48,18 @@
   </url>
   
   <url>
-    <loc>https://data1030.github.io/</loc>
-    <lastmod>2017-06-28T15:12:58-07:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://data1030.github.io/schedule/</loc>
   </url>
   
   <url>
     <loc>https://data1030.github.io/document/</loc>
-    <lastmod>2017-06-28T15:11:53-07:00</lastmod>
+    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/</loc>
+    <lastmod>2017-10-29T03:33:48-07:00</lastmod>
   </url>
   
   <url>
