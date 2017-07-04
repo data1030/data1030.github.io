@@ -2,6 +2,7 @@
 title: "Intro to Data Science"
 date: 2017-09-08T03:17:08-07:00
 draft: false
+category: lab
 ---
 
 Here's an intro assignment I've been working on using a dataset from kaggle.

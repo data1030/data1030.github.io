@@ -2,6 +2,7 @@
 title: "Fake Reviews"
 date: 2017-10-05T03:17:08-07:00
 draft: false
+category: project
 ---
 
 You can download the notebook over [here](/notebook/fake-reviews.ipynb).

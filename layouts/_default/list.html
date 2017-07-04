@@ -2,8 +2,11 @@
 <div class="container">
     <h1 id="title">{{ .Title }}</h1>
     <ul id="list">
-        {{ range .Data.Pages }}
-            {{ .Render "li"}}
+        {{ range .Data.Pages.GroupByParam "category" }}
+            <h3>{{ humanize .Key | pluralize }}</h3>
+            {{ range .Pages }}
+                {{ .Render "li"}}
+            {{ end }}
         {{ end }}
     </ul>
 </div>

@@ -2,6 +2,7 @@
 title: "Regex"
 date: 2017-06-28T15:11:53-07:00
 draft: false
+category: notes
 ---
 This was downloaded from a Jupyter notebook. Markdown downloads seem to work
 better than HTML downloads.

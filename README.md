@@ -23,9 +23,9 @@ the `master` branch. *This is a workaround to an unfixable problem.*
 Run the following to do so
 ```
   hugo # Generates the files in the docs folder
-  . # Make your commit here
-  .
-  .
+  git add .
+  git commit -m "<YOUR MESSAGE>"
+  git push origin source
   git subtree --prefix=docs push origin master
 ```
 
@@ -51,8 +51,9 @@ See https://gohugo.io for more information.
 * Domain Name
 * Integrate with MathJax to enable LaTex support
 * Assignment release/due dates on schedule
-* Design and link lab intructions/notebooks
-* Design and link notes
+* Link assignments and notes on the course homepage
+* Design lab intructions/notebooks
+* Design necessary notes
 * Integrate nbviewer
 
 
