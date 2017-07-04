@@ -40,7 +40,7 @@ For example, use
 hugo new blog/test.md
 ```
 
-to generate a basic empty markdown file in the blog directory.
+to generate a basic empty markdown file called `test.md` in the `blog` directory.
 
 See https://gohugo.io for more information.
 
