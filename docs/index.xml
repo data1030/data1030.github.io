@@ -48,11 +48,12 @@ Analyze  download historical data or use an API backtest check for overfitting u
       <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
       
       <guid>https://data1030.github.io/assignment/lab/intro/</guid>
-      <description>Here&amp;rsquo;s an intro assignment I&amp;rsquo;ve been working on using a dataset from kaggle.
-Lab: Intro to Pandas and the Data Science Process Due: 6/15/2016
-Prompt: TBD
-Part 0: Overview In this assignment, you will learn how to use the Python Data Analysis Library (pandas) to transform, analyze, and visualize data. Begin below by importing the relevant modules. Be sure to delete or comment out the
-raise NotImplementedError()  statements.</description>
+      <description>Lab 1: Intro to Data Science Due: 9/8/2017
+Setting up your computer Install python3 We recommend the following methods:
+ Linux Mac OS X Windows  It is fine if you already have a different version of Python 3 installed. However, you may run into errors that we have not come across.
+Downloading the lab files. Git? Zip file on this page? Brown&amp;rsquo;s filesystem?
+git clone ...
+ssh username@ssh.cs.brown.edu</description>
     </item>
     
     <item>
