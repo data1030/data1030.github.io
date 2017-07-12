@@ -50,10 +50,9 @@ Analyze  download historical data or use an API backtest check for overfitting u
       <guid>https://data1030.github.io/assignment/lab/intro/</guid>
       <description>Lab 1: Intro to Data Science Due: 9/8/2017
 Setting up your computer Install python3 We recommend the following methods:
- Linux Mac OS X Windows  It is fine if you already have a different version of Python 3 installed. However, you may run into errors that we have not come across.
-Downloading the lab files. Git? Zip file on this page? Brown&amp;rsquo;s filesystem?
-git clone ...
-ssh username@ssh.cs.brown.edu</description>
+ Linux Mac OS X Windows  It is fine if you already have a different version of Python 3 installed. However, you may run into errors that we have not yet come across.
+Downloading the lab files. Git git clone https://github.com/data1030/... http://www.ds100.org/sp17/setup http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf
+Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/about/system/connecting/ssh/</description>
     </item>
     
   </channel>

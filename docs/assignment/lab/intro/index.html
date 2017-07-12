@@ -76,31 +76,74 @@
 </ul>
 
 <p>It is fine if you already have a different version of Python 3 installed. However, you
-may run into errors that we have not come across.</p>
+may run into errors that we have not yet come across.</p>
 
 <h3 id="downloading-the-lab-files">Downloading the lab files.</h3>
 
-<p>Git? Zip file on this page? Brown&rsquo;s filesystem?</p>
+<h4 id="git">Git</h4>
 
-<p><code>git clone ...</code></p>
+<p><code>git clone https://github.com/data1030/...</code>
+<a href="http://www.ds100.org/sp17/setup">http://www.ds100.org/sp17/setup</a>
+<a href="http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf">http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf</a></p>
 
-<p><code>ssh username@ssh.cs.brown.edu</code></p>
+<h4 id="department-computing-system">Department computing system</h4>
 
-<p><code>scp username@ssh.cs.brown.edu:path/to/template .</code></p>
+<p><code>ssh username@ssh.cs.brown.edu</code>
+<a href="https://cs.brown.edu/about/system/connecting/ssh/">https://cs.brown.edu/about/system/connecting/ssh/</a></p>
 
-<p><code>upzip filename</code></p>
+<p><code>scp username@ssh.cs.brown.edu:PATH/TO/TEMPLATE .</code>
+<a href="https://cs.brown.edu/courses/cs015/docs/WorkingfromHomeSCPSFTP.pdf">https://cs.brown.edu/courses/cs015/docs/WorkingfromHomeSCPSFTP.pdf</a></p>
+
+<h3 id="fastx">FastX</h3>
+
+<h4 id="extracting-files">Extracting files</h4>
+
+<p><code>upzip FILENAME</code></p>
+
+<p><code>tar -xzvf FILENAME</code></p>
 
 <h3 id="running-the-notebook">Running the notebook</h3>
 
-<p><code>pip3 install virtualenv ENV</code></p>
+<p>Go to your working directory (the folder containing the python notebooks)
+and run the following.</p>
 
-<p><code>source ENV/bin/activate</code></p>
-
-<p><code>pip3 install requirements.txt</code></p>
-
-<p><code>jupyter notebook</code></p>
+<pre><code>pip3 install virtualenv ENV
+source ENV/bin/activate
+pip3 install -r requirements.txt
+jupyter notebook
+</code></pre>
 
 <p>Click on <code>lab1.ipynb</code> for further info.</p>
+
+<h3 id="summary">Summary</h3>
+
+<ul>
+<li>Read a CSV file <code>API_ILO_country_YU</code></li>
+<li>Show the 12 countries with the highest unemployment rates in 2013</li>
+<li>Show the <em>country name</em> and <em>country code</em> of all rows where:
+
+<ul>
+<li>the 2010 unemployment rate is higher than 2014 unemployment rate, and</li>
+<li>the 2014 unemployment rate is above 20%</li>
+</ul></li>
+<li>Graph the data and label the axes</li>
+<li>Explore data, answering the 4 <em>italicized</em> questions.</li>
+</ul>
+
+<h3 id="submitting-assignments">Submitting assignments</h3>
+
+<p>Files to submit</p>
+
+<ul>
+<li><code>lab1.ipynb</code></li>
+</ul>
+
+<p>Options:</p>
+
+<ul>
+<li>git push &hellip;</li>
+<li>data1030_handin</li>
+</ul>
 
 </div>
     
