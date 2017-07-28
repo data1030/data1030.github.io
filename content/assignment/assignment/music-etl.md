@@ -2,7 +2,7 @@
 title: "Music ETL"
 date: 2017-10-29T03:33:48-07:00
 draft: false
-category: project
+category: assignment
 ---
 
 ## Music

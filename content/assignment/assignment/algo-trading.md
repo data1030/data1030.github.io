@@ -2,7 +2,7 @@
 title: "Algorithmic Trading"
 date: 2017-09-21T15:12:58-07:00
 draft: false
-category: project
+category: assignment
 ---
 
 ## Create Your Strategy

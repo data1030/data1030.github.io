@@ -13,20 +13,20 @@
     
     <item>
       <title>Music ETL</title>
-      <link>https://data1030.github.io/assignment/project/music-etl/</link>
+      <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
       <pubDate>Sun, 29 Oct 2017 03:33:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/project/music-etl/</guid>
+      <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
       <description>Music Music Data Around Us Possible datasets:
  Million Song Dataset - Audio Features Spotify - General Last.fm Billboard Youtube Twitter Reddit Google Trends Blogs Critics Sales  Cleaning the data  Typos everwhere: social media, billboard charts Extracting features from tweets, comments, reviews  Before We Overwork Ourselves  How well do we need to merge the data? What kind of questions are we going to ask?  Putting it together  Different album spellings, different artist formats LastFM popularity vs Spotify popularity vs Twitter  Loading the data  Do we need a staging area?</description>
     </item>
     
     <item>
       <title>Fake Reviews</title>
-      <link>https://data1030.github.io/assignment/project/amazon-reviews/</link>
+      <link>https://data1030.github.io/assignment/assignment/amazon-reviews/</link>
       <pubDate>Thu, 05 Oct 2017 03:17:08 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/project/amazon-reviews/</guid>
+      <guid>https://data1030.github.io/assignment/assignment/amazon-reviews/</guid>
       <description>You can download the notebook over here.
 Motivation Can we trust Amazon reviews? If Walmart were to have a review system as good as Yelp&amp;rsquo;s, would it be able to push back against Amazon?
 Getting the data public datasets web scraping - legality  Initial Exploration: The orbital shaker Some people can get away with blatantly fake reviews. How can we combat this? Why hasn&amp;rsquo;t Amazon filtered out the easy pickings?</description>
@@ -34,10 +34,10 @@ Getting the data public datasets web scraping - legality  Initial Exploration: T
     
     <item>
       <title>Algorithmic Trading</title>
-      <link>https://data1030.github.io/assignment/project/algo-trading/</link>
+      <link>https://data1030.github.io/assignment/assignment/algo-trading/</link>
       <pubDate>Thu, 21 Sep 2017 15:12:58 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/project/algo-trading/</guid>
+      <guid>https://data1030.github.io/assignment/assignment/algo-trading/</guid>
       <description>Create Your Strategy Types of stategies  momentum baseline etc.  How much risk can you bear? What are the buying and selling fees?
 Analyze  download historical data or use an API backtest check for overfitting use charts  Improve  more advanced methods  Halfway through the assignment: the game begins Submit your code. Through some interface, you can see how your model(s) are performing on the current market compared to your classmates.</description>
     </item>
@@ -85,13 +85,12 @@ Definition A regular expression (also called regex or regexp) is a sequence of c
     </item>
     
     <item>
-      <title>Detailed Schedule</title>
-      <link>https://data1030.github.io/schedule/</link>
+      <title>Empty</title>
+      <link>https://data1030.github.io/assignment/project/empty/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://data1030.github.io/schedule/</guid>
-      <description>Editable schedule Editable Detailed Schedule
-Old Schedule   Week Date Topic Part 1 Part 2 Lab     1 9/7 Overview  Intro to Data Science I  What is data science? Math and CS in data science The data science process, multiple interpretations A real-world example    Intro to Data Science II and Course Logistics  Summarizing the example: the data scientist&#39;s skillset Types of data scientists Recent applications Course logistics   Intro to data science w/ Jupyter and pandas   Module 1: Computer Science   2 9/12 CS Review  Basic CS Primer  Computational complexity Data structures  List, tuple, set, dictionary Stack, queue, heap, BST, priority queue Graphs: adjacency list, matrix Hashing  Algorithms  Sorting: insertion, selection, heap, quicksort, merge sort Search: BFS, DFS, binary search, string algorithms      Common technologies  APIs HTML Javascript File Formats Text encodings  CS in data science  Linear programming B+ trees Dataframe    Getting Data from Spotify   2 9/14 Hardware   CPUs Threads Cache and main memory Networking Disk storage  Latency numbers   Business costs I     GPUs Power supply Modern processors in ML  FPGAs ASICs: TPUs  Business costs II   GPU Computing: Implementing a MLE   Module 2: Data Science Crash Course   3 9/19 ML Crash Course  Unsupervised ML   Dimensionality reduction: PCA Clustering: kmeans to spectral Real-world applications  Dimensionality reduction: visualization Clustering: customer segmentation, data exploration     Supervised ML   Classification overview Regression overview Generalization error  Bias-variance Overfitting  Real-world applications  Fraud detection Document classification    Classifying Iris Flowers   3 9/21 ML in Practice  Validation and Feature Engineering I   Training/Test Error Cross Validation ROC and AUC Regularization Feature selection  Correlation Mutual information Similarity Number of features Selection algorithms     Feature Engineering II   Feature transformation  Binning n-grams Non-linear transformations  Feature extraction   Detecting Fake Reviews   4 9/26 Data Exploration  Context and Simple Statistics in Practice  Business/Domain Knowledge Other contextual info Intro Statistics Knowledge Applied Correlation Distributions Plotting    Exploration w/ ML  Segmentation analysis Deviation analysis Relationships between variables      4 9/28 Data Preparation  Tedious Cleaning  Single source: Misspellings, missing values, duplicates Multiple source: Date format conflicts, schema design, overlapping data, etc.</description>
+      <guid>https://data1030.github.io/assignment/project/empty/</guid>
+      <description>Just an empty file.</description>
     </item>
     
   </channel>

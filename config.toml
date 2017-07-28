@@ -10,11 +10,6 @@ name = "Home"
 url = "/"
 
 [[menu.main]]
-weight = 2
-name = "Detailed Schedule"
-url = "/schedule/"
-
-[[menu.main]]
 weight = 3
 name = "Assignments"
 url = "/assignment/"
