@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>DATA 1030</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="/css/data1030.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-toggleable-md navbar-light">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="/">DATA 1030</a>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assignment/">Assignments</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/document/">Documents</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="/calendar/">Calendar</a>
+                    </li>
+                    
+                </ul>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<div class="container">
+    <h1 id="title">Regex</h1>
+    
+
+<h2 id="overview">Overview</h2>
+
+<p>Data is not always ready to analyze right away; many times, it needs to be preprocessed. When you need to work with text data, regular expressions will help. Past data science students have often noted that learning regex was one of the most useful takeaways from the course.</p>
+
+<p>This is a pair programming lab. You will use your web browser and your console during this lab. This is a fast-paced lab. Work with your partner to do as much as possible but expect to not complete many parts.</p>
+
+<h2 id="lab-outline">Lab Outline</h2>
+
+<ul>
+<li>Part 1: Writing regex</li>
+<li>Part 2: Reading regex</li>
+<li>Part 3: Regex in Python</li>
+<li>Part 4: Regex on Data</li>
+<li>Part 5: Reflection</li>
+</ul>
+
+<h2 id="part-1-writing-regex-10-minutes">Part 1: Writing regex (10 minutes)</h2>
+
+<p>With your partner, go through the following tutorial: <a href="https://regexone.com/lesson/introduction_abcs">https://regexone.com/lesson/introduction_abcs</a></p>
+
+<p>If you have time, do the practice problems as well.</p>
+
+<h2 id="part-2-reading-regex-10-minutes">Part 2: Reading regex (10 minutes)</h2>
+
+<p>What do the following regular expressions match?</p>
+
+<ol>
+<li><code>^-\d+</code></li>
+<li><code>&quot;(.*?)&quot;</code></li>
+<li><code>^[a-z0-9_-]{6,18}$</code></li>
+<li><code>^\+?[\d\s]+\(?[\d\s]{10,}$</code></li>
+<li><code>^&lt;([a-z]+)([^&lt;]+)*(?:&gt;(.*)&lt;\/\1&gt;|\s+\/&gt;)$</code></li>
+<li><code>^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$</code></li>
+<li><code>^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$</code></li>
+<li><code>^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$</code></li>
+</ol>
+
+<p>A. IP Address</p>
+
+<p>B. HTML Tag</p>
+
+<p>C. Negative Integer</p>
+
+<p>D. Password</p>
+
+<p>E. URL</p>
+
+<p>F. Quotation</p>
+
+<p>G. Email Address</p>
+
+<p>H. Phone Number</p>
+
+<h3 id="modifying-regex">Modifying Regex</h3>
+
+<p>9) Modify the quotation regex to account for escaped quotations marks (<code>\”</code>).</p>
+
+<p>10) Modify the URL regex to only match https URLs.</p>
+
+<p>11) Modify the password regex to only match passwords with at least one number.</p>
+
+<p>12) Modify the phone number regex to match telephone numbers in Malta instead.</p>
+
+<p>If you have time, explain to your partner why expressions 4 to 8 are so complex.</p>
+
+<h2 id="part-3-regex-in-python-10-minutes">Part 3: Regex in Python (10 minutes)</h2>
+
+<h3 id="getting-started">Getting Started</h3>
+
+<p>Open your command line interface, start Python3, and import the re module.</p>
+
+<p><code>re.compile</code> takes in a string and outputs a pattern object. A pattern object <code>p</code> has methods such as <code>p.match</code> and <code>p.search</code> which return a match object or <code>None</code>. A match object <code>m</code> has the method <code>m.group</code> which returns the string matched by the pattern.</p>
+
+<p>As the above is only a vague introduction, reference <a href="https://docs.python.org/3/howto/regex.html">https://docs.python.org/3/howto/regex.html</a> throughout this section.</p>
+
+<p><em>For each problem you should write at least</em> <strong>three</strong> <em>test cases.</em></p>
+
+<h3 id="tasks">Tasks</h3>
+
+<p><strong>1)</strong> Write the function <code>get_visa_number</code>. This function takes in a string. If the string is a credit card number output a string with the whitespace removed corresponding to the credit card number. Otherwise, raise an error.</p>
+
+<p><em>Example:</em></p>
+
+<p>Input: <code>'4111 1111 1111 1111'</code></p>
+
+<p>Output: <code>'4111111111111111'</code></p>
+
+<p><strong>2)</strong> Write the function <code>is_today</code>. This function takes in a string and returns <code>True</code> if the string matches today’s date in some date format. Otherwise it returns <code>False</code>.</p>
+
+<p><em>Example:</em></p>
+
+<p>Input: <code>31-07-12</code></p>
+
+<p>Output: <code>False</code></p>
+
+<p><strong>3)</strong> Write the function <code>song_and_artist</code>. This function takes in a string in the below format and returns a tuple of the song name and artist name.</p>
+
+<p><em>Example:</em></p>
+
+<p>Input: <code>'This is the song &quot;Fake Plastic Trees&quot; by artist &quot;Radiohead&quot;'</code></p>
+
+<p>Output: <code>(‘fake plastic trees’, ‘radiohead’)</code></p>
+
+<p>If you finish this part, write more test cases for <code>is_today</code>to make sure it works with all date formats.</p>
+
+<h2 id="part-4-regex-on-data-10-minutes">Part 4: Regex on Data (10 minutes)</h2>
+
+<p>Download the following dataset: lastfm_data.csv</p>
+
+<p>Use modules like <em>pandas</em> and <em>re</em> to help you process the data.</p>
+
+<p>Your <strong>task</strong> is to output a new CSV file satisfying the following criteria:</p>
+
+<ul>
+<li>The CSV file should have a song_name column and artist_name column</li>
+<li>The song and artist names should be lowercased</li>
+</ul>
+
+<p>If you have time do the following:</p>
+
+<ul>
+<li>Output the dataset as a JSON file, with the top tags in a more suitable format</li>
+
+<li><p>Consider if you wanted to merge this dataset with data from Spotify. How would you deal with small differences like the following:</p>
+
+<ul>
+<li>&ldquo;Ghost In The Trees&rdquo; by &ldquo;Thee Oh Sees&rdquo; from Spotify matches with &ldquo;Ghost In The Trees&rdquo; by &ldquo;The Oh Sees&rdquo; from LastFM.</li>
+<li>&ldquo;Blue Meanies&rdquo; by &ldquo;Opossom&rdquo; from Spotify matches with &ldquo;Blur Meanies&rdquo; by &ldquo;Opposom&rdquo; from LastFM.</li>
+<li>&ldquo;Sippin&rsquo; On Fire&rdquo; by &ldquo;Florida Georgia Line&rdquo; from Spotify matches &ldquo;Sipping on Fire&rdquo; by &ldquo;Florida Georgia Line&rdquo; from LastFM.</li>
+<li>&ldquo;The Blue Notebooks&rdquo; by &ldquo;Max Richter&rdquo; from Spotify does not match with &ldquo;Blue Notebooks&rdquo; by &ldquo;Max Richter&rdquo; on LastFM.</li>
+<li>&ldquo;No One Knows&rdquo; by &ldquo;Screaming Trees&rdquo; from Spotify does not match with &ldquo;No 1 Knows&rdquo; by &ldquo;Screaming Trees&rdquo; from LastFM.</li>
+</ul></li>
+</ul>
+
+<h2 id="part-5-reflection-10-minutes">Part 5: Reflection (10 minutes)</h2>
+
+<p>Before you leave discuss with partner these five questions.</p>
+
+<ol>
+<li>When would you use regex? When would you not use regex?</li>
+<li>How would you make a regular expression more readable?</li>
+<li>What would you do if your dataset was too large to be viewed on Excel?</li>
+<li>When would using regex with Find &amp; Replace help?</li>
+<li>How long should you clean a dataset for before you start resuming data analysis?</li>
+</ol>
+
+</div>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>
+
+</html>

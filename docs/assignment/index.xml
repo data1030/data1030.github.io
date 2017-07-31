@@ -33,6 +33,16 @@ Getting the data public datasets web scraping - legality  Initial Exploration: T
     </item>
     
     <item>
+      <title>Regex</title>
+      <link>https://data1030.github.io/assignment/lab/regex/</link>
+      <pubDate>Tue, 26 Sep 2017 03:17:08 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/lab/regex/</guid>
+      <description>Overview Data is not always ready to analyze right away; many times, it needs to be preprocessed. When you need to work with text data, regular expressions will help. Past data science students have often noted that learning regex was one of the most useful takeaways from the course.
+This is a pair programming lab. You will use your web browser and your console during this lab. This is a fast-paced lab.</description>
+    </item>
+    
+    <item>
       <title>Algorithmic Trading</title>
       <link>https://data1030.github.io/assignment/assignment/algo-trading/</link>
       <pubDate>Thu, 21 Sep 2017 15:12:58 -0700</pubDate>
