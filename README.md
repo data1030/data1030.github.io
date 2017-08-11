@@ -18,7 +18,7 @@ hugo server
 
 ### Editing the course website
 To push changes to the the course website you will need to update the `docs` folder and push that subdirectory to
-the `master` branch. *This is a workaround to an unfixable problem.*
+the `master` branch. *This is just a problem with how Github Pages works.*
 
 Run the following to do so
 ```
@@ -31,7 +31,7 @@ Run the following to do so
 
 ### File Organization
 
-The course schedule on the homepage can be edited by modifying `data/schedule.yml`.
+The course schedule on the homepage can be edited by modifying `content/_index.md`.
 All other files should be added to the contents folder.
 
 For example, use

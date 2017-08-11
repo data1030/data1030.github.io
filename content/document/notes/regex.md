@@ -4,9 +4,6 @@ date: 2017-06-28T15:11:53-07:00
 draft: false
 category: notes
 ---
-This was downloaded from a Jupyter notebook. Markdown downloads seem to work
-better than HTML downloads.
-
 # Regular Expressions
 
 More powerful and concise than the built-in string functions in most programming languages, *regular expressions* can be useful time-savers for many data cleaning tasks involving strings.

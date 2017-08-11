@@ -17,7 +17,7 @@
       <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/document/course/syllabus/</guid>
-      <description></description>
+      <description>This will be done soon.</description>
     </item>
     
     <item>
@@ -26,9 +26,9 @@
       <pubDate>Wed, 28 Jun 2017 15:11:53 -0700</pubDate>
       
       <guid>https://data1030.github.io/document/notes/regex/</guid>
-      <description>This was downloaded from a Jupyter notebook. Markdown downloads seem to work better than HTML downloads.
-Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
-Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.</description>
+      <description>Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
+Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.[1]
+Regex in Python By importing the re module, you can use regular expressions within your Python scripts while cleaning data.</description>
     </item>
     
   </channel>

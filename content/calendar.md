@@ -2,5 +2,5 @@
 title = "Calendar"
 +++
 
-Embed a public calendar here. It can contain office hours, lab times,
-deadlines, and other types of events.
+Embed a public google calendar here. It should contain TA hours, lab times,
+assignment deadlines, and other important dates.

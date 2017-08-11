@@ -6,31 +6,10 @@
     <description>Recent content in Homepage on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Oct 2017 03:33:48 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 26 Sep 2017 03:17:08 -0700</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Music ETL</title>
-      <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
-      <pubDate>Sun, 29 Oct 2017 03:33:48 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
-      <description>Music Music Data Around Us Possible datasets:
- Million Song Dataset - Audio Features Spotify - General Last.fm Billboard Youtube Twitter Reddit Google Trends Blogs Critics Sales  Cleaning the data  Typos everwhere: social media, billboard charts Extracting features from tweets, comments, reviews  Before We Overwork Ourselves  How well do we need to merge the data? What kind of questions are we going to ask?  Putting it together  Different album spellings, different artist formats LastFM popularity vs Spotify popularity vs Twitter  Loading the data  Do we need a staging area?</description>
-    </item>
-    
-    <item>
-      <title>Fake Reviews</title>
-      <link>https://data1030.github.io/assignment/assignment/amazon-reviews/</link>
-      <pubDate>Thu, 05 Oct 2017 03:17:08 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/assignment/amazon-reviews/</guid>
-      <description>You can download the notebook over here.
-Motivation Can we trust Amazon reviews? If Walmart were to have a review system as good as Yelp&amp;rsquo;s, would it be able to push back against Amazon?
-Getting the data public datasets web scraping - legality  Initial Exploration: The orbital shaker Some people can get away with blatantly fake reviews. How can we combat this? Why hasn&amp;rsquo;t Amazon filtered out the easy pickings?</description>
-    </item>
     
     <item>
       <title>Regex</title>
@@ -43,26 +22,25 @@ This is a pair programming lab. You will use your web browser and your console d
     </item>
     
     <item>
-      <title>Algorithmic Trading</title>
-      <link>https://data1030.github.io/assignment/assignment/algo-trading/</link>
-      <pubDate>Thu, 21 Sep 2017 15:12:58 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/assignment/algo-trading/</guid>
-      <description>Create Your Strategy Types of stategies  momentum baseline etc.  How much risk can you bear? What are the buying and selling fees?
-Analyze  download historical data or use an API backtest check for overfitting use charts  Improve  more advanced methods  Halfway through the assignment: the game begins Submit your code. Through some interface, you can see how your model(s) are performing on the current market compared to your classmates.</description>
-    </item>
-    
-    <item>
       <title>Intro to Data Science</title>
       <link>https://data1030.github.io/assignment/lab/intro/</link>
       <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
       
       <guid>https://data1030.github.io/assignment/lab/intro/</guid>
       <description>Lab 1: Intro to Data Science Due: 9/8/2017
-Setting up your computer Install python3 We recommend the following methods:
+Setting up your computer Install Python3 We recommend the following methods:
  Linux Mac OS X Windows  It is fine if you already have a different version of Python 3 installed. However, you may run into errors that we have not yet come across.
 Downloading the lab files. Git git clone https://github.com/data1030/... http://www.ds100.org/sp17/setup http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf
 Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/about/system/connecting/ssh/</description>
+    </item>
+    
+    <item>
+      <title>Getting Started</title>
+      <link>https://data1030.github.io/assignment/project/empty/</link>
+      <pubDate>Tue, 05 Sep 2017 03:17:08 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/project/empty/</guid>
+      <description>This will be a guide to help you get started on the group project.</description>
     </item>
     
     <item>
@@ -71,7 +49,7 @@ Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/a
       <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/document/course/syllabus/</guid>
-      <description></description>
+      <description>This will be done soon.</description>
     </item>
     
     <item>
@@ -80,9 +58,9 @@ Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/a
       <pubDate>Wed, 28 Jun 2017 15:11:53 -0700</pubDate>
       
       <guid>https://data1030.github.io/document/notes/regex/</guid>
-      <description>This was downloaded from a Jupyter notebook. Markdown downloads seem to work better than HTML downloads.
-Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
-Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.</description>
+      <description>Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
+Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.[1]
+Regex in Python By importing the re module, you can use regular expressions within your Python scripts while cleaning data.</description>
     </item>
     
     <item>
@@ -91,16 +69,7 @@ Definition A regular expression (also called regex or regexp) is a sequence of c
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://data1030.github.io/calendar/</guid>
-      <description>Embed a public calendar here. It can contain office hours, lab times, deadlines, and other types of events.</description>
-    </item>
-    
-    <item>
-      <title>Empty</title>
-      <link>https://data1030.github.io/assignment/project/empty/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/project/empty/</guid>
-      <description>Just an empty file.</description>
+      <description>Embed a public google calendar here. It should contain TA hours, lab times, assignment deadlines, and other important dates.</description>
     </item>
     
   </channel>

@@ -11,7 +11,7 @@ Due: 9/8/2017
 
 ## Setting up your computer
 
-### Install python3
+### Install Python3
 
 We recommend the following methods:
 
