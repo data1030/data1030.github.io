@@ -124,7 +124,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 3: Data Management
+                Module 4: Data Management
             </td>
         </tr>
         <tr>
@@ -154,7 +154,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 4: Data Engineering
+                Module 5: Data Engineering
             </td>
         </tr>
         <tr>
@@ -199,7 +199,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 5: Data Mining
+                Module 6: Data Mining
             </td>
         </tr>
         <tr>
@@ -265,7 +265,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 7: Deep Learning
+                Module 8: Deep Learning
             </td>
         </tr>
         <tr>
