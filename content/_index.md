@@ -45,7 +45,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 1: Computer Science
+                Module 1: Algorithms
             </td>
         </tr>
         <tr>
@@ -68,7 +68,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="brown" colspan="100%" align="center">
-                Module 2: Crash Course
+                Module 2: Machine Learning
             </td>
         </tr>
         <tr>
@@ -89,8 +89,13 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
+            <td class="brown" colspan="100%" align="center">
+                Module 3: Data Preparation
+            </td>
+        </tr>
+        <tr>
             <td>9/26</td>
-            <td>Data Cleaning</td>
+            <td>Data Wrangling</td>
             <td>
                 <a href="http://web.mit.edu/hackl/www/lab/turkshop/slides/regex-cheatsheet.pdf">
                     Regex Cheat Sheet
