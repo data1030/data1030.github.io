@@ -1,5 +1,5 @@
 ---
-title: "Lab 1: Intro to Data Science"
+title: "Lab 1"
 date: 2017-09-08T03:17:08-07:00
 draft: false
 category: lab

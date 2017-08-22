@@ -5,11 +5,6 @@ title = "DATA 1030"
 publishDir = "docs"
 
 [[menu.main]]
-weight = 1
-name = "Home"
-url = "/"
-
-[[menu.main]]
 weight = 3
 name = "Assignments"
 url = "/assignment/"
