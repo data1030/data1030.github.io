@@ -12,34 +12,12 @@
     
     
     <item>
-      <title>Music ETL</title>
+      <title>Assignment 3</title>
       <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
       <pubDate>Mon, 02 Oct 2017 03:33:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
-      <description> Music </description>
-    </item>
-    
-    <item>
-      <title>Lab 1: Intro to Data Science</title>
-      <link>https://data1030.github.io/assignment/lab/lab1/</link>
-      <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/lab/lab1/</guid>
-      <description> Due: 9/8/2017
-Setting up your computer Install Python3 We recommend installing Anaconda Python
-Installing git Downloading the lab files Starting Jupyter Notebook Tasks Summary Submitting assignments To submit your assignment, just make sure that your forked repository is up to date.
-git push ...  Options:
- git push &amp;hellip; data1030_handin  </description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://data1030.github.io/assignment/project/empty/</link>
-      <pubDate>Tue, 05 Sep 2017 03:17:08 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/project/empty/</guid>
-      <description>This will be a guide to help you get started on the group project.</description>
+      <description></description>
     </item>
     
   </channel>

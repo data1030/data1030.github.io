@@ -8,28 +8,35 @@
   </url>
   
   <url>
-    <loc>https://data1030.github.io/assignment/lab/lab1/</loc>
-    <lastmod>2017-09-08T03:17:08-07:00</lastmod>
+    <loc>https://data1030.github.io/project/setup/</loc>
+    <lastmod>2017-08-22T05:31:27-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://data1030.github.io/assignment/project/empty/</loc>
-    <lastmod>2017-09-05T03:17:08-07:00</lastmod>
+    <loc>https://data1030.github.io/document/installation/</loc>
+    <lastmod>2017-08-22T05:29:43-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://data1030.github.io/document/course/collab/</loc>
-    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
+    <loc>https://data1030.github.io/document/collab/</loc>
+    <lastmod>2017-08-22T05:29:33-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://data1030.github.io/document/course/syllabus/</loc>
-    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
+    <loc>https://data1030.github.io/document/syllabus/</loc>
+    <lastmod>2017-08-22T05:29:26-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://data1030.github.io/document/course/installation/</loc>
-    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
+    <loc>https://data1030.github.io/tags/</loc>
+    <lastmod>2017-10-02T03:33:48-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/categories/</loc>
+    <lastmod>2017-10-02T03:33:48-07:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -44,12 +51,13 @@
   
   <url>
     <loc>https://data1030.github.io/categories/</loc>
+    <lastmod>2017-10-02T03:33:48-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://data1030.github.io/document/</loc>
-    <lastmod>2017-06-29T07:03:48-07:00</lastmod>
+    <lastmod>2017-08-22T05:29:43-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,7 +67,14 @@
   </url>
   
   <url>
+    <loc>https://data1030.github.io/project/</loc>
+    <lastmod>2017-08-22T05:31:27-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://data1030.github.io/tags/</loc>
+    <lastmod>2017-10-02T03:33:48-07:00</lastmod>
     <priority>0</priority>
   </url>
   

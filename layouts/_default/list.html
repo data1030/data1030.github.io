@@ -2,13 +2,8 @@
 <div class="container">
     <h1 id="title">{{ .Title }}</h1>
     <ul id="list">
-        {{ range .Data.Pages.GroupByParam "category" }}
-            {{ if ne .Key "course"}}
-            <h3>{{ humanize .Key | pluralize }}</h3>
-            {{ end }}
-            {{ range .Pages }}
-                {{ .Render "li"}}
-            {{ end }}
+        {{ range .Pages }}
+            {{ .Render "li"}}
         {{ end }}
     </ul>
 </div>

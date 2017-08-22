@@ -10,6 +10,12 @@ name = "Assignments"
 url = "/assignment/"
 
 [[menu.main]]
+weight = 3
+name = "Project"
+url = "/project/"
+
+
+[[menu.main]]
 weight = 4
 name = "Documents"
 url = "/document/"

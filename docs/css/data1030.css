@@ -6,30 +6,32 @@ html {
 
 body {
     background: linear-gradient(to bottom right, #FFECB3, #ffcdd2);
-    font-family: "Lucida Sans Unicode";
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Link Animations */
 
-a {
-    text-decoration: none;
-    -webkit-transition: all .5s ease-in;
+/* Navbar */
+
+.navbar-light a {
+    color: inherit;
 }
+
+.navbar-light a:hover {
+    color: #b71c1c;
+    border-bottom: 1px solid #b71c1c;
+}
+
+/* Links within bootstrap containers */
 
 .container a {
     text-decoration: none;
     -webkit-transition: all .5s ease-in;
 }
 
-a:hover {
+.container a:hover {
     color: #b71c1c;
     border-bottom: 1px solid #b71c1c;
-}
-
-/* Navbar */
-
-.navbar a {
-    color: inherit;
 }
 
 /* Red Background */
@@ -44,6 +46,7 @@ a:hover {
 }
 
 .brown a:hover {
+    color: #FAFAFA;
     border-bottom: 1px solid #FAFAFA;
 }
 

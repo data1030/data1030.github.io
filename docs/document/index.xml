@@ -6,36 +6,36 @@
     <description>Recent content in Documents on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Jun 2017 07:03:48 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Aug 2017 05:29:43 -0400</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/document/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Collaboration Policy</title>
-      <link>https://data1030.github.io/document/course/collab/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
+      <title>Installation Guide</title>
+      <link>https://data1030.github.io/document/installation/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:43 -0400</pubDate>
       
-      <guid>https://data1030.github.io/document/course/collab/</guid>
-      <description>Enter the markdown content here.</description>
+      <guid>https://data1030.github.io/document/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration Policy</title>
+      <link>https://data1030.github.io/document/collab/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:33 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/collab/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Course Syllabus</title>
-      <link>https://data1030.github.io/document/course/syllabus/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
+      <link>https://data1030.github.io/document/syllabus/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:26 -0400</pubDate>
       
-      <guid>https://data1030.github.io/document/course/syllabus/</guid>
-      <description>Enter the markdown content here.</description>
-    </item>
-    
-    <item>
-      <title>Installation Guide</title>
-      <link>https://data1030.github.io/document/course/installation/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/document/course/installation/</guid>
-      <description>Enter the markdown content here.</description>
+      <guid>https://data1030.github.io/document/syllabus/</guid>
+      <description></description>
     </item>
     
   </channel>

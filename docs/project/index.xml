@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on DATA 1030</title>
+    <link>https://data1030.github.io/project/</link>
+    <description>Recent content in Projects on DATA 1030</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Aug 2017 05:31:27 -0400</lastBuildDate>
+    
+	<atom:link href="https://data1030.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setup</title>
+      <link>https://data1030.github.io/project/setup/</link>
+      <pubDate>Tue, 22 Aug 2017 05:31:27 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/project/setup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

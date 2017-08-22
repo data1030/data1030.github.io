@@ -12,61 +12,48 @@
     
     
     <item>
-      <title>Music ETL</title>
+      <title>Assignment 3</title>
       <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
       <pubDate>Mon, 02 Oct 2017 03:33:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
-      <description> Music </description>
+      <description></description>
     </item>
     
     <item>
-      <title>Lab 1: Intro to Data Science</title>
-      <link>https://data1030.github.io/assignment/lab/lab1/</link>
-      <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
+      <title>Setup</title>
+      <link>https://data1030.github.io/project/setup/</link>
+      <pubDate>Tue, 22 Aug 2017 05:31:27 -0400</pubDate>
       
-      <guid>https://data1030.github.io/assignment/lab/lab1/</guid>
-      <description> Due: 9/8/2017
-Setting up your computer Install Python3 We recommend installing Anaconda Python
-Installing git Downloading the lab files Starting Jupyter Notebook Tasks Summary Submitting assignments To submit your assignment, just make sure that your forked repository is up to date.
-git push ...  Options:
- git push &amp;hellip; data1030_handin  </description>
-    </item>
-    
-    <item>
-      <title>Getting Started</title>
-      <link>https://data1030.github.io/assignment/project/empty/</link>
-      <pubDate>Tue, 05 Sep 2017 03:17:08 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/assignment/project/empty/</guid>
-      <description>This will be a guide to help you get started on the group project.</description>
-    </item>
-    
-    <item>
-      <title>Collaboration Policy</title>
-      <link>https://data1030.github.io/document/course/collab/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/document/course/collab/</guid>
-      <description>Enter the markdown content here.</description>
-    </item>
-    
-    <item>
-      <title>Course Syllabus</title>
-      <link>https://data1030.github.io/document/course/syllabus/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
-      
-      <guid>https://data1030.github.io/document/course/syllabus/</guid>
-      <description>Enter the markdown content here.</description>
+      <guid>https://data1030.github.io/project/setup/</guid>
+      <description></description>
     </item>
     
     <item>
       <title>Installation Guide</title>
-      <link>https://data1030.github.io/document/course/installation/</link>
-      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
+      <link>https://data1030.github.io/document/installation/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:43 -0400</pubDate>
       
-      <guid>https://data1030.github.io/document/course/installation/</guid>
-      <description>Enter the markdown content here.</description>
+      <guid>https://data1030.github.io/document/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration Policy</title>
+      <link>https://data1030.github.io/document/collab/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:33 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/collab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course Syllabus</title>
+      <link>https://data1030.github.io/document/syllabus/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:26 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/syllabus/</guid>
+      <description></description>
     </item>
     
     <item>
