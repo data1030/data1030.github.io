@@ -8,18 +8,18 @@
     <meta name="author" content="">
     <title>DATA 1030</title>
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Local CSS -->
     <link rel="stylesheet" href="/css/data1030.css">
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-toggleable-md">
+        <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="/">DATA 1030</a>
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav">
                         {{ range .Site.Menus.main }}
                         <li class="nav-item">
                             <a class="nav-link" href="{{.URL}}">{{ .Name }}</a>

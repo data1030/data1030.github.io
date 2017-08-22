@@ -3,42 +3,52 @@
 html {
     min-height: 100%;
 }
+
 body {
     background: linear-gradient(to bottom right, #FFECB3, #ffcdd2);
     font-family: "Lucida Sans Unicode";
 }
 
+/* Link Animations */
 
-/* Links */
-.navbar a {
-    border-bottom: 1px solid transparent;
+a {
     text-decoration: none;
     -webkit-transition: all .5s ease-in;
-    color: inherit;
 }
 
-.navbar a:hover {
+.container a {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in;
+}
+
+a:hover {
     color: #b71c1c;
     border-bottom: 1px solid #b71c1c;
 }
 
-.navbar-toggler {
-    color: rgba(0,0,0,.9);
+/* Navbar */
+
+.navbar a {
+    color: inherit;
 }
 
-/* Jumbotron */
+/* Red Background */
 
-tr.brown,
-th.brown,
-td.brown,
-div.brown {
+.brown,
+.brown a {
     background: #b71c1c;
     color: #FAFAFA;
     border-radius: .3rem;
     border-width: 0;
+    text-decoration: none;
 }
 
-/* Tables */
+.brown a:hover {
+    border-bottom: 1px solid #FAFAFA;
+}
+
+
+/* Course Schedule Table */
 
 .data1030-table th,
 .data1030-table td {
@@ -48,9 +58,4 @@ div.brown {
 
 .data1030-table a {
     text-decoration: none;
-}
-.data1030-table a:hover {
-    -webkit-transition: all .5s ease-in;
-    color: #b71c1c;
-    border-bottom: 1px solid #b71c1c;
 }

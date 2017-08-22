@@ -6,9 +6,9 @@ title = "Homepage"
     <h3>Welcome to DATA 1030!</h3>
     Please make sure to check out these links as the course gets under way!
     <ul>
-        <li>Installation Guide</li>
-        <li>Course Syllabus</li>
-        <li>Collaboration Policy</li>
+        <li><a href="document/course/syllabus">Course Syllabus</a></li>
+        <li><a href="document/course/collab">Collaboration Policy</a></li>
+        <li><a href="document/course/installation">Installation Guide</a></li>
         <li>Piazza</li>
     </ul>
 </div>
