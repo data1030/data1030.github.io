@@ -6,32 +6,31 @@
     <description>Recent content in Homepage on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Sep 2017 03:17:08 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Oct 2017 03:33:48 -0700</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Regex</title>
-      <link>https://data1030.github.io/assignment/lab/regex/</link>
-      <pubDate>Tue, 26 Sep 2017 03:17:08 -0700</pubDate>
+      <title>Music ETL</title>
+      <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
+      <pubDate>Mon, 02 Oct 2017 03:33:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/lab/regex/</guid>
-      <description>Overview Data is not always ready to analyze right away; many times, it needs to be preprocessed. When you need to work with text data, regular expressions will help. Past data science students have often noted that learning regex was one of the most useful takeaways from the course.
-This is a pair programming lab. You will use your web browser and your console during this lab. This is a fast-paced lab.</description>
+      <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
+      <description> Music </description>
     </item>
     
     <item>
-      <title>Intro to Data Science</title>
-      <link>https://data1030.github.io/assignment/lab/intro/</link>
+      <title>Lab 1: Intro to Data Science</title>
+      <link>https://data1030.github.io/assignment/lab/lab1/</link>
       <pubDate>Fri, 08 Sep 2017 03:17:08 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/lab/intro/</guid>
-      <description>Lab 1: Intro to Data Science Due: 9/8/2017
-Setting up your computer Install Python3 We recommend the following methods:
- Linux Mac OS X Windows  It is fine if you already have a different version of Python 3 installed. However, you may run into errors that we have not yet come across.
-Downloading the lab files. Git git clone https://github.com/data1030/... http://www.ds100.org/sp17/setup http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf
-Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/about/system/connecting/ssh/</description>
+      <guid>https://data1030.github.io/assignment/lab/lab1/</guid>
+      <description> Due: 9/8/2017
+Setting up your computer Install Python3 We recommend installing Anaconda Python
+Installing git Downloading the lab files Starting Jupyter Notebook Tasks Summary Submitting assignments To submit your assignment, just make sure that your forked repository is up to date.
+git push ...  Options:
+ git push &amp;hellip; data1030_handin  </description>
     </item>
     
     <item>
@@ -44,23 +43,30 @@ Department computing system ssh username@ssh.cs.brown.edu https://cs.brown.edu/a
     </item>
     
     <item>
-      <title>Syllabus</title>
+      <title>Collaboration Policy</title>
+      <link>https://data1030.github.io/document/course/collab/</link>
+      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/document/course/collab/</guid>
+      <description>Enter the markdown content here.</description>
+    </item>
+    
+    <item>
+      <title>Course Syllabus</title>
       <link>https://data1030.github.io/document/course/syllabus/</link>
       <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/document/course/syllabus/</guid>
-      <description>This will be done soon.</description>
+      <description>Enter the markdown content here.</description>
     </item>
     
     <item>
-      <title>Regex</title>
-      <link>https://data1030.github.io/document/notes/regex/</link>
-      <pubDate>Wed, 28 Jun 2017 15:11:53 -0700</pubDate>
+      <title>Installation Guide</title>
+      <link>https://data1030.github.io/document/course/installation/</link>
+      <pubDate>Thu, 29 Jun 2017 07:03:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/document/notes/regex/</guid>
-      <description>Regular Expressions More powerful and concise than the built-in string functions in most programming languages, regular expressions can be useful time-savers for many data cleaning tasks involving strings.
-Definition A regular expression (also called regex or regexp) is a sequence of characters that define a search pattern. Usually this pattern is then used by string searching algorithms for &amp;ldquo;find&amp;rdquo; or &amp;ldquo;find and replace&amp;rdquo; operations on strings.[1]
-Regex in Python By importing the re module, you can use regular expressions within your Python scripts while cleaning data.</description>
+      <guid>https://data1030.github.io/document/course/installation/</guid>
+      <description>Enter the markdown content here.</description>
     </item>
     
     <item>

@@ -1,30 +1,25 @@
 /* General */
 
-html,
+html {
+    min-height: 100%;
+}
 body {
-    height: 100%;
-    background: #f2f2f2;
-    font-family: "PT Serif", serif;
+    background: linear-gradient(to bottom right, #FFECB3, #ffcdd2);
+    font-family: "Lucida Sans Unicode";
 }
 
 
 /* Links */
-a {
+.navbar a {
     border-bottom: 1px solid transparent;
     text-decoration: none;
     -webkit-transition: all .5s ease-in;
-}
-
-a:hover {
-    color: #9b9b9b;
-    border-bottom: 1px solid #9b9b9b;
-}
-
-
-/* Navigation */
-
-.navbar a {
     color: inherit;
+}
+
+.navbar a:hover {
+    color: #b71c1c;
+    border-bottom: 1px solid #b71c1c;
 }
 
 .navbar-toggler {
@@ -33,20 +28,29 @@ a:hover {
 
 /* Jumbotron */
 
+tr.brown,
+th.brown,
 td.brown,
 div.brown {
-    background-color: #6D4C41;
-    color: #fffffc;
+    background: #b71c1c;
+    color: #FAFAFA;
+    border-radius: .3rem;
+    border-width: 0;
 }
 
 /* Tables */
 
-.table th,
-td {
+.data1030-table th,
+.data1030-table td {
     text-align: center;
+    border-width: 0px;
 }
 
-.table-bordered th,
-.table-bordered td {
-    border: 1px solid #6D4C41;
+.data1030-table a {
+    text-decoration: none;
+}
+.data1030-table a:hover {
+    -webkit-transition: all .5s ease-in;
+    color: #b71c1c;
+    border-bottom: 1px solid #b71c1c;
 }

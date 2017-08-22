@@ -14,42 +14,41 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-toggleable-md navbar-light">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="/">DATA 1030</a>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav mr-auto">
+    <div class="container">
+        <nav class="navbar navbar-toggleable-md">
+            <a class="navbar-brand" href="/">DATA 1030</a>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/assignment/">Assignments</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/document/">Documents</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a class="nav-link" href="/calendar/">Calendar</a>
-                    </li>
-                    
+                    <ul class="navbar-nav mr-auto">
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/assignment/">Assignments</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/document/">Documents</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="/calendar/">Calendar</a>
+                        </li>
+                        
+                    </ul>
                 </ul>
-            </ul>
-            <ul class="navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
-                        Github
-                    </a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                <ul class="navbar-nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
+                            Github
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
 <div class="container">
     <h1 id="title">Intro to Data Science</h1>
@@ -63,40 +62,17 @@
 
 <h3 id="install-python3">Install Python3</h3>
 
-<p>We recommend the following methods:</p>
+<p>We recommend installing Anaconda Python</p>
 
-<ul>
-<li><a href="http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/linux/">Linux</a></li>
-<li><a href="http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/osx/">Mac OS X</a></li>
-<li><a href="http://python-guide-pt-br.readthedocs.io/en/latest/starting/install3/win/">Windows</a></li>
-</ul>
-
-<p>It is fine if you already have a different version of Python 3 installed. However, you
-may run into errors that we have not yet come across.</p>
+<h3 id="installing-git">Installing git</h3>
 
 <h3 id="downloading-the-lab-files">Downloading the lab files.</h3>
 
-<h4 id="git">Git</h4>
+<p>Go to <a href="https://github.com/data1030/course/..">https://github.com/data1030/course/..</a>. and fork the repository. Then clone
+the repository inside of a folder of your choice by running the following command:</p>
 
-<p><code>git clone https://github.com/data1030/...</code>
-<a href="http://www.ds100.org/sp17/setup">http://www.ds100.org/sp17/setup</a>
-<a href="http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf">http://cs.brown.edu/courses/cs138/s17/content/docs/git-handout.pdf</a></p>
-
-<h4 id="department-computing-system">Department computing system</h4>
-
-<p><code>ssh username@ssh.cs.brown.edu</code>
-<a href="https://cs.brown.edu/about/system/connecting/ssh/">https://cs.brown.edu/about/system/connecting/ssh/</a></p>
-
-<p><code>scp username@ssh.cs.brown.edu:PATH/TO/TEMPLATE .</code>
-<a href="https://cs.brown.edu/courses/cs015/docs/WorkingfromHomeSCPSFTP.pdf">https://cs.brown.edu/courses/cs015/docs/WorkingfromHomeSCPSFTP.pdf</a></p>
-
-<h3 id="fastx">FastX</h3>
-
-<h4 id="extracting-files">Extracting files</h4>
-
-<p><code>upzip FILENAME</code></p>
-
-<p><code>tar -xzvf FILENAME</code></p>
+<pre><code>git clone https://github.com/data1030/course/...
+</code></pre>
 
 <h3 id="running-the-notebook">Running the notebook</h3>
 
@@ -111,7 +87,7 @@ jupyter notebook
 
 <p>Click on <code>lab1.ipynb</code> for further info.</p>
 
-<h3 id="summary">Summary</h3>
+<h3 id="tasks-summary">Tasks Summary</h3>
 
 <ul>
 <li>Read a CSV file <code>API_ILO_country_YU</code></li>
@@ -123,16 +99,16 @@ jupyter notebook
 <li>the 2014 unemployment rate is above 20%</li>
 </ul></li>
 <li>Graph the data and label the axes</li>
-<li>Explore data, answering the 4 <em>italicized</em> questions.</li>
+<li>Explore data, answering the 5 <em>italicized</em> questions.</li>
 </ul>
 
 <h3 id="submitting-assignments">Submitting assignments</h3>
 
-<p>Files to submit</p>
+<p>To submit your assignment, just make sure that your forked repository is up to
+date.</p>
 
-<ul>
-<li><code>lab1.ipynb</code></li>
-</ul>
+<pre><code>git push ...
+</code></pre>
 
 <p>Options:</p>
 
