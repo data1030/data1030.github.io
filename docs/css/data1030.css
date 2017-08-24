@@ -14,7 +14,7 @@ body {
 /* Navbar */
 
 .navbar-light a {
-    color: inherit;
+    color: #b71c1c;
 }
 
 .navbar-light a:hover {
@@ -27,6 +27,7 @@ body {
 .container a {
     text-decoration: none;
     -webkit-transition: all .5s ease-in;
+    border-bottom: 1px solid transparent;
 }
 
 .container a:hover {
@@ -55,8 +56,8 @@ body {
 
 .data1030-table th,
 .data1030-table td {
+    border-width: 0;
     text-align: center;
-    border-width: 0px;
 }
 
 .data1030-table a {
