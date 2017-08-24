@@ -270,14 +270,14 @@ title = "Homepage"
         </tr>
         <tr>
             <td>11/16</td>
-            <td>Data Privacy</td>
+            <td>Risk Factors</td>
             <td></td>
             <td></td>
             <td></td>
         </tr>
         <tr>
             <td>11/21</td>
-            <td>Risk Factors</td>
+            <td>Data Privacy</td>
             <td></td>
             <td></td>
             <td></td>
