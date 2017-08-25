@@ -276,7 +276,7 @@ title = "Homepage"
                 </a>
             </td>
             <td></td>
-            <td>Assignment 7 due 12/7</td>
+            <td>Assignment 7 due 11/22</td>
         </tr>
         <tr>
             <td>11/16</td>
