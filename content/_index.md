@@ -269,7 +269,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td>11/14</td>
-            <td>Project Proposals</td>
+            <td>Proposal Presentations</td>
             <td></td>
             <td></td>
             <td></td>
@@ -309,7 +309,7 @@ title = "Homepage"
                 </a>
             </td>
             <td></td>
-            <td></td>
+            <td>Assignment 7 due 12/7</td>
         </tr>
         <tr>
             <td>11/30</td>
@@ -331,10 +331,10 @@ title = "Homepage"
         </tr>
         <tr>
             <td>12/7</td>
-            <td>Quiz II</td>
+            <td>TBD</td>
             <td></td>
             <td></td>
-            <td>Quiz #2 Today</td>
+            <td>Final Presentations on 12/14</td>
         </tr>
     </tbody>
 </table>
