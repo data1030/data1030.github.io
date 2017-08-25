@@ -2,29 +2,35 @@
 title = "Homepage"
 +++
 
-<div class="jumbotron brown">
-    <h3>Welcome to DATA 1030!</h3>
-    Please make sure to check out these links as the course gets under way!
-    <ul>
-        <li><a href="document/syllabus">Course Syllabus</a></li>
-        <li><a href="document/collab">Collaboration Policy</a></li>
-        <li><a href="document/installation">Installation Guide</a></li>
-        <li>Piazza</li>
-    </ul>
+<div class="jumbotron jumbotron-fluid jumbotron-data1030">
+    <div class="container container-fluid">
+        <h2>Welcome to DATA 1030!</h2>
+        <p class="lead">
+            Be sure to check out these links as the course gets under way!
+        </p>
+        <hr class="my-4">
+        <div>
+            <a class="btn btn-light" href="document/syllabus">Course Syllabus</a>
+            <a class="btn btn-light" href="document/collab">Collaboration Policy</a>
+            <a class="btn btn-light" href="document/installation">Installation Guide</a>
+            <a class="btn btn-light" href="#">Piazza</a>
+        </div>
+    </div>
 </div>
 
-<h1>Course Schedule</h1>
+<div class="container">
+    <h1 align="center">Course Schedule</h1>
+</div>
 
 <table class="table table-sm data1030-table">
     <thead>
-        <tr class="brown">
+        <tr>
             <th>Date</th>
             <th>Topic</th>
             <th>Readings</th>
             <th>Notes</th>
             <th>Announcements</th>
         </tr>
-    </thead>
     <tbody>
         <tr>
             <td>9/7</td>
@@ -38,7 +44,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-cs" colspan="100%" align="center">
                 Computer Science
             </td>
         </tr>
@@ -69,7 +75,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-ml" colspan="100%" align="center">
                 ML in a Nutshell
             </td>
         </tr>
@@ -99,7 +105,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-cs" colspan="100%" align="center">
                 Data Preparation
             </td>
         </tr>
@@ -137,7 +143,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-cs" colspan="100%" align="center">
                 Data Management
             </td>
         </tr>
@@ -167,7 +173,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-cs" colspan="100%" align="center">
                 Big Data
             </td>
         </tr>
@@ -216,7 +222,7 @@ title = "Homepage"
             <td>Quiz #1 Today</td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-ml" colspan="100%" align="center">
                 Data Mining
             </td>
         </tr>
@@ -257,8 +263,8 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
-                Topics in Analytics
+            <td class="data1030-both" colspan="100%" align="center">
+                Selected Topics
             </td>
         </tr>
         <tr>
@@ -290,7 +296,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="brown" colspan="100%" align="center">
+            <td class="data1030-ml" colspan="100%" align="center">
                 Neural Networks
             </td>
         </tr>

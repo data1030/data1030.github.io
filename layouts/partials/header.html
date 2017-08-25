@@ -16,29 +16,27 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light navbar-data1030">
-            <a class="navbar-brand" href="/">DATA 1030</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <ul class="navbar-nav">
-                        {{ range .Site.Menus.main }}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{.URL}}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </ul>
-                <ul class="navbar-nav navbar-right">
+    <nav class="navbar navbar-expand-md navbar-light navbar-data1030">
+        <a class="navbar-brand" href="/">DATA 1030</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav">
+                    {{ range .Site.Menus.main }}
                     <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
-                            Github
-                        </a>
+                        <a class="nav-link" href="{{.URL}}">{{ .Name }}</a>
                     </li>
+                    {{ end }}
                 </ul>
-            </div>
-        </nav>
-    </div>
+            </ul>
+            <ul class="navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/data1030/data1030.github.io">
+                        Github
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>

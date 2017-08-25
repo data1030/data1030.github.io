@@ -5,16 +5,30 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom right, #FFECB3, #ffcdd2);
+    background: #FAFAFA; /*linear-gradient(to bottom right, #FFECB3, #ffcdd2); */
     font-family: 'Open Sans', sans-serif;
 }
 
 /* Link Animations */
 
+/* Links */
+
+a {
+    text-decoration: none;
+    -webkit-transition: all .5s ease-in;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    color: #b71c1c;
+    border-bottom: 1px solid #b71c1c;
+}
+
 /* Navbar */
 
 .navbar-light a {
     color: #b71c1c;
+    border-bottom: 1px solid transparent;
 }
 
 .navbar-light a:hover {
@@ -22,37 +36,31 @@ body {
     border-bottom: 1px solid #b71c1c;
 }
 
-/* Links within bootstrap containers */
-
-.container a {
-    text-decoration: none;
-    -webkit-transition: all .5s ease-in;
-    border-bottom: 1px solid transparent;
-}
-
-.container a:hover {
-    color: #b71c1c;
-    border-bottom: 1px solid #b71c1c;
-}
-
 /* Red Background */
 
-.brown,
-.brown a {
-    background: #b71c1c;
+.jumbotron-data1030 {
+    background: linear-gradient(to bottom left, #b71c1c, #EC407A);
     color: #FAFAFA;
-    border-radius: .3rem;
     border-width: 0;
     text-decoration: none;
 }
 
-.brown a:hover {
-    color: #FAFAFA;
-    border-bottom: 1px solid #FAFAFA;
-}
-
 
 /* Course Schedule Table */
+.data1030-cs {
+    color: #FAFAFA;
+    background-color: #b71c1c;
+}
+
+.data1030-ml {
+    color: #FAFAFA;
+    background-color: #EC407A;
+}
+
+.data1030-both {
+    color: #FAFAFA;
+    background: linear-gradient(to left, #b71c1c, #EC407A);
+}
 
 .data1030-table th,
 .data1030-table td {
@@ -63,3 +71,5 @@ body {
 .data1030-table a {
     text-decoration: none;
 }
+
+.table thead th { border-bottom: 1px solid black; }
