@@ -1,37 +1,23 @@
 /* General */
 
-html {
+#bootstrap-overide html {
     min-height: 100%;
 }
 
-body {
-    background: #FAFAFA; /*linear-gradient(to bottom right, #FFECB3, #ffcdd2); */
-    font-family: 'Open Sans', sans-serif;
+#bootstrap-overide body {
+    background: white;
 }
-
-/* Link Animations */
-
-/* Links */
-
-a {
+#bootstrap-overide th {
+    border-bottom: 2px solid #b71c1c;
+}
+#bootstrap-overide a {
+    color: #EC407A;
     text-decoration: none;
     -webkit-transition: all .5s ease-in;
     border-bottom: 1px solid transparent;
 }
 
-a:hover {
-    color: #b71c1c;
-    border-bottom: 1px solid #b71c1c;
-}
-
-/* Navbar */
-
-.navbar-light a {
-    color: #b71c1c;
-    border-bottom: 1px solid transparent;
-}
-
-.navbar-light a:hover {
+#bootstrap-overide a:hover {
     color: #b71c1c;
     border-bottom: 1px solid #b71c1c;
 }
@@ -40,25 +26,23 @@ a:hover {
 
 .jumbotron-data1030 {
     background: linear-gradient(to bottom left, #b71c1c, #EC407A);
-    color: #FAFAFA;
-    border-width: 0;
+    color: white;
     text-decoration: none;
 }
 
-
 /* Course Schedule Table */
 .data1030-cs {
-    color: #FAFAFA;
+    color: white;
     background-color: #b71c1c;
 }
 
 .data1030-ml {
-    color: #FAFAFA;
+    color: white;
     background-color: #EC407A;
 }
 
 .data1030-both {
-    color: #FAFAFA;
+    color: white;
     background: linear-gradient(to left, #b71c1c, #EC407A);
 }
 
@@ -71,5 +55,3 @@ a:hover {
 .data1030-table a {
     text-decoration: none;
 }
-
-.table thead th { border-bottom: 1px solid black; }

@@ -1,6 +1,10 @@
 {{ partial "header.html" . }}
+<div class="jumbotron jumbotron-fluid jumbotron-data1030">
+    <div class="container">
+        <h1 id="title">{{ .Title }}</h1>
+    </div>
+</div>
 <div class="container">
-    <h1 id="title">{{ .Title }}</h1>
     {{ .Content }}
 </div>
 {{ partial "footer.html" . }}
