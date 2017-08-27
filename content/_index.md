@@ -216,10 +216,10 @@ title = "Homepage"
         </tr>
         <tr>
             <td>10/26</td>
-            <td>Quiz I</td>
+            <td>Midterm</td>
             <td></td>
             <td></td>
-            <td>Quiz #1 Today</td>
+            <td><em>Midterm Today</em></td>
         </tr>
         <tr>
             <td class="data1030-ml" colspan="100%" align="center">
@@ -253,7 +253,7 @@ title = "Homepage"
             <td>Recommender Systems</td>
             <td></td>
             <td></td>
-            <td>Project Proposal due on 11/14</td>
+            <td>Project Proposal due on 11/13</td>
         </tr>
         <tr>
             <td>11/9</td>
@@ -264,7 +264,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="data1030-both" colspan="100%" align="center">
-                Selected Topics
+                Neural Networks
             </td>
         </tr>
         <tr>
@@ -305,7 +305,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td class="data1030-ml" colspan="100%" align="center">
-                Neural Networks
+                Selected Topics
             </td>
         </tr>
         <tr>
