@@ -263,7 +263,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="data1030-both" colspan="100%" align="center">
+            <td class="data1030-ml" colspan="100%" align="center">
                 Neural Networks
             </td>
         </tr>
@@ -304,7 +304,7 @@ title = "Homepage"
             <td></td>
         </tr>
         <tr>
-            <td class="data1030-ml" colspan="100%" align="center">
+            <td class="data1030-both" colspan="100%" align="center">
                 Selected Topics
             </td>
         </tr>
