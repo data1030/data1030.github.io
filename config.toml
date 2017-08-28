@@ -7,18 +7,12 @@ publishDir = "docs"
 [[menu.main]]
 weight = 3
 name = "Assignments"
-url = "/assignment/"
-
-[[menu.main]]
-weight = 3
-name = "Project"
-url = "/project/"
-
+url = "https://github.com/data1030/course/"
 
 [[menu.main]]
 weight = 4
 name = "Documents"
-url = "/document/"
+url = "https://drive.google.com/open?id=0B5Mwk-2LLWe3T29lejVjUGFLU3c"
 
 [[menu.main]]
 weight = 5
