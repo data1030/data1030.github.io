@@ -12,7 +12,7 @@ url = "https://github.com/data1030/course/"
 [[menu.main]]
 weight = 4
 name = "Documents"
-url = "https://drive.google.com/open?id=0B5Mwk-2LLWe3T29lejVjUGFLU3c"
+url = "/document/"
 
 [[menu.main]]
 weight = 5

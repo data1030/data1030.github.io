@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on DATA 1030</title>
+    <title>DATA 1030</title>
     <link>https://data1030.github.io/categories/</link>
-    <description>Recent content in Categories on DATA 1030</description>
+    <description>Recent content on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 02 Oct 2017 03:33:48 -0700</lastBuildDate>
@@ -12,12 +12,48 @@
     
     
     <item>
-      <title></title>
-      <link>https://data1030.github.io/categories/</link>
+      <title>Assignment 3</title>
+      <link>https://data1030.github.io/assignment/assignment/music-etl/</link>
       <pubDate>Mon, 02 Oct 2017 03:33:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/categories/</guid>
+      <guid>https://data1030.github.io/assignment/assignment/music-etl/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Setup</title>
+      <link>https://data1030.github.io/project/setup/</link>
+      <pubDate>Tue, 22 Aug 2017 05:31:27 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/project/setup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installation Guide</title>
+      <link>https://data1030.github.io/document/installation/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:43 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/installation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Collaboration Policy</title>
+      <link>https://data1030.github.io/document/collab/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:33 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/collab/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Course Syllabus</title>
+      <link>https://data1030.github.io/document/syllabus/</link>
+      <pubDate>Tue, 22 Aug 2017 05:29:26 -0400</pubDate>
+      
+      <guid>https://data1030.github.io/document/syllabus/</guid>
+      <description>   </description>
     </item>
     
   </channel>
