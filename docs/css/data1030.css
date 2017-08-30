@@ -56,3 +56,10 @@
     text-decoration: none;
 }
 
+.google-iframe {
+    width: 75%;
+    display: block;
+    height: 1500px;
+    margin: 0 auto;
+    overflow: hidden;   
+}
