@@ -7,7 +7,7 @@
 </div>
 <div class="container">
     <ul id="list">
-        {{ range .Pages }}
+        {{ range .Pages.ByDate }}
             {{ .Render "li"}}
         {{ end }}
     </ul>

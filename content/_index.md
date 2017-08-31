@@ -12,7 +12,7 @@ title = "Homepage"
         <div>
             <a class="btn btn-light" href="/document/syllabus">Course Syllabus</a>
             <a class="btn btn-light" href="/document/collab">Collaboration Policy</a>
-            <a class="btn btn-light" href="https://docs.google.com/a/brown.edu/document/d/1-be-XHwFqKFYyOXjDbW6WAiG8OERUl_nYNmYqVWzn1o/edit?usp=sharing">Installation Guide</a>
+            <a class="btn btn-light" href="https://docs.google.com/a/brown.edu/document/d/1-be-XHwFqKFYyOXjDbW6WAiG8OERUl_nYNmYqVWzn1o/export?format=pdf">Installation Guide</a>
             <a class="btn btn-light" href="https://piazza.com/brown/fall2017/data1030s01fall2017">Piazza</a>
         </div>
     </div>

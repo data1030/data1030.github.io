@@ -7,7 +7,7 @@ publishDir = "docs"
 [[menu.main]]
 weight = 3
 name = "Assignments"
-url = "https://github.com/data1030/course/"
+url = "/assignment/"
 
 [[menu.main]]
 weight = 4
