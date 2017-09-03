@@ -9,7 +9,7 @@ title = "Homepage"
             Be sure to check out these links as the course gets under way!
         </p>
         <hr class="my-4">
-        <div>
+        <div class="container container-fluid">
             <a class="btn btn-light" href="/document/syllabus">Course Syllabus</a>
             <a class="btn btn-light" href="/document/collab">Collaboration Policy</a>
             <a class="btn btn-light" href="https://docs.google.com/a/brown.edu/document/d/1-be-XHwFqKFYyOXjDbW6WAiG8OERUl_nYNmYqVWzn1o/export?format=pdf">Installation Guide</a>
@@ -22,7 +22,7 @@ title = "Homepage"
     <h1 align="center">Course Schedule</h1>
 </div>
 
-<table class="table table-sm data1030-table">
+<table class="table table-sm table-responsive data1030-table">
     <thead>
         <tr>
             <th>Date</th>
