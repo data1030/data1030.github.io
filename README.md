@@ -18,10 +18,10 @@ hugo server
 ```
 
 ### Editing Quick Start
-If you want to edit the home page, go to `content/_index.md`
-If you want to edit individual assignment pages, go to `contents/assignments`
-If you want to edit the layout of the pages, go to `layouts/_default/`
-If you want to edit the CSS, go to `static/style.css`
+* If you want to edit the home page, go to `content/_index.md`
+* If you want to edit individual assignment pages, go to `contents/assignments`
+* If you want to edit the layout of the pages, go to `layouts/_default/`
+* If you want to edit the CSS, go to `static/style.css`
 
 ### Pushing edits
 To push changes to the the course website you will need to update the `docs` folder by first running the command `hugo` and then push `docs` to the `master` branch. *This is just a problem with how Github Pages for users/organizations works.*
