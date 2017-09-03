@@ -11,14 +11,20 @@ Run the following commands to install Hugo and the source code.
   cd data1030.github.io
 ```
 
-To run a local server, use the command
+To run the site on a local server, run the command
 
 ```
 hugo server
 ```
 
+### Editing Quick Start
+If you want to edit the home page, go to `content/_index.md`
+If you want to edit individual assignment pages, go to `contents/assignments`
+If you want to edit the layout of the pages, go to `layouts/_default/`
+If you want to edit the CSS, go to `static/style.css`
+
 ### Pushing edits
-To push changes to the the course website you will need to update the `docs` folder by runnning the command `hugo` and then push that subdirectory to the `master` branch. *This is just a problem with how Github Pages works.*
+To push changes to the the course website you will need to update the `docs` folder by first running the command `hugo` and then push `docs` to the `master` branch. *This is just a problem with how Github Pages for users/organizations works.*
 
 Run the following to do so
 ```
@@ -35,7 +41,7 @@ The course schedule on the homepage can be edited by modifying `content/_index.m
 Examples of assignments, documents, and notes are available in the subdirectories in the `content`
 folder as well.
 
-Just add a yaml header in the following format and then your markdown code.
+Just add a yaml header in the following format and then add your markdown.
 
 ```
 ---
@@ -57,7 +63,7 @@ A helpful command is
 hugo new blog/test.md
 ```
 
-to generate a basic empty markdown file called `test.md` in `content/blog`.
+This generates a basic empty markdown file called `test.md` in `content/blog`.
 
 See https://gohugo.io for more information.
 
