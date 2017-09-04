@@ -17,6 +17,7 @@ Here are some related resources:
 * [Title IX site](https://www.brown.edu/about/administration/title-ix/index.php?q=policy)
 * [Office of Diversity and Inclusion](https://www.brown.edu/about/administration/institutional-diversity/)
 * [Health Services](https://www.brown.edu/campus-life/health/services/)
+* [SHARE Advocates](https://www.brown.edu/campus-life/health/services/promotion/sexual-assault-dating-violence-get-help-how-help-friend/share-advocates)
 
 
 Please note that all of the course staff and the [DGS](https://www.math.brown.edu/~sswatson/) are what Title IX call Responsible Employees. If you report a title violation to any of these people, they are required to report it to the university, in which case you will be contacted by a university official. Thus, if you want your conversation to be kept strictly confidential, you should talk to one of the many resources listed here. Note that Brown's [SHARE Advocates](https://www.brown.edu/campus-life/health/services/promotion/sexual-assault-dating-violence-get-help-how-help-friend/share-advocates) offer confidentiality.
