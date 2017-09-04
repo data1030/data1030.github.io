@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DATA 1030</title>
+    <title>Categories on DATA 1030</title>
     <link>https://data1030.github.io/categories/</link>
-    <description>Recent content on DATA 1030</description>
+    <description>Recent content in Categories on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Sep 2017 03:33:48 -0700</lastBuildDate>
@@ -12,48 +12,12 @@
     
     
     <item>
-      <title>Assignment 0</title>
-      <link>https://data1030.github.io/assignment/assignment-0/</link>
+      <title></title>
+      <link>https://data1030.github.io/categories/</link>
       <pubDate>Thu, 07 Sep 2017 03:33:48 -0700</pubDate>
       
-      <guid>https://data1030.github.io/assignment/assignment-0/</guid>
-      <description>See the instructions here</description>
-    </item>
-    
-    <item>
-      <title>Inclusion Statement</title>
-      <link>https://data1030.github.io/document/diversity/</link>
-      <pubDate>Mon, 04 Sep 2017 17:08:29 -0400</pubDate>
-      
-      <guid>https://data1030.github.io/document/diversity/</guid>
-      <description>Professionalism, Diversity and Inclusion Statement Our intent is that this course provides a welcoming and inclusive environment that is free of any form of discrimination and harassment. All members of our community, including the students, TAs, faculty, and staff, are expected to treat one another in a professional and respectful manner. Our TAs have undergone training in diversity and inclusion. If you feel you have not been treated in a professional or respectful manner by any of the course staff, please contact either the course instructors, or our DGS, or the Graduate School.</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>https://data1030.github.io/project/setup/</link>
-      <pubDate>Tue, 22 Aug 2017 05:31:27 -0400</pubDate>
-      
-      <guid>https://data1030.github.io/project/setup/</guid>
+      <guid>https://data1030.github.io/categories/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Collaboration Policy</title>
-      <link>https://data1030.github.io/document/collab/</link>
-      <pubDate>Tue, 22 Aug 2017 05:29:33 -0400</pubDate>
-      
-      <guid>https://data1030.github.io/document/collab/</guid>
-      <description>   </description>
-    </item>
-    
-    <item>
-      <title>Course Syllabus</title>
-      <link>https://data1030.github.io/document/syllabus/</link>
-      <pubDate>Tue, 22 Aug 2017 05:29:26 -0400</pubDate>
-      
-      <guid>https://data1030.github.io/document/syllabus/</guid>
-      <description>   </description>
     </item>
     
   </channel>
