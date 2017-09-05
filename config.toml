@@ -18,3 +18,8 @@ url = "/document/"
 weight = 5
 name = "Calendar"
 url = "/calendar/"
+
+[[menu.main]]
+weight = 6
+name = "Resources"
+url = "/resources/"

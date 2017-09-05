@@ -23,7 +23,7 @@
   </url>
   
   <url>
-    <loc>https://data1030.github.io/document/resources/</loc>
+    <loc>https://data1030.github.io/document/iclicker/</loc>
     <lastmod>2017-08-22T05:29:33-04:00</lastmod>
   </url>
   
@@ -75,6 +75,10 @@
     <loc>https://data1030.github.io/project/</loc>
     <lastmod>2017-08-22T05:31:27-04:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://data1030.github.io/resources/</loc>
   </url>
   
   <url>
