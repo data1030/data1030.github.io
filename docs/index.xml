@@ -17,7 +17,9 @@
       <pubDate>Thu, 07 Sep 2017 03:33:48 -0700</pubDate>
       
       <guid>https://data1030.github.io/assignment/assignment-0/</guid>
-      <description>See the instructions here</description>
+      <description>Assignment 0: Introduction to Git, Jupyter &amp;amp; Pandas Due Date: will be finished during lab on Thursday, September 7, 2017
+Instructions
+Feedback Survey</description>
     </item>
     
     <item>
@@ -48,16 +50,12 @@
     </item>
     
     <item>
-      <title>Python Resources</title>
-      <link>https://data1030.github.io/document/resources/</link>
+      <title>iClicker Setup</title>
+      <link>https://data1030.github.io/document/iclicker/</link>
       <pubDate>Tue, 22 Aug 2017 05:29:33 -0400</pubDate>
       
-      <guid>https://data1030.github.io/document/resources/</guid>
-      <description> Learning Python Problem Solving with Algorithms and Data Structures using Python
-Online, interactive Python interpreter
-Beginner&#39;s Python cheatsheet (PDF)
-Official Python 3 tutorial
-MATLAB–Python–Julia cheatsheet  </description>
+      <guid>https://data1030.github.io/document/iclicker/</guid>
+      <description>   </description>
     </item>
     
     <item>
@@ -76,6 +74,20 @@ MATLAB–Python–Julia cheatsheet  </description>
       
       <guid>https://data1030.github.io/calendar/</guid>
       <description> </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>https://data1030.github.io/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://data1030.github.io/resources/</guid>
+      <description>Learning Python Problem Solving with Algorithms and Data Structures using Python
+Online, interactive Python interpreter
+Beginner&#39;s Python cheatsheet (PDF)
+Official Python 3 tutorial
+MATLAB–Python–Julia cheatsheet  Department &amp;amp; University Resources Diversity and Inclusion Support  Student and Employee Accessibility Services (SEAS) 
+Counseling and Psychological Services (CAPS)</description>
     </item>
     
   </channel>

@@ -1,8 +1,7 @@
----
-title: "Python Resources"
-date: 2017-08-22T05:29:33-04:00
-draft: false
----
++++
+title = "Resources"
++++
+
 
 ## Learning Python
 
@@ -14,3 +13,15 @@ draft: false
     MATLAB–Python–Julia cheatsheet
     </a>
 </p>
+
+
+## Department & University Resources
+<p><a href="http://cs.brown.edu/about/diversity/resources/">
+    Diversity and Inclusion Support
+    </a>
+</p>	
+<p><a href="https://www.brown.edu/campus-life/support/accessibility-services/">Student and Employee Accessibility Services (SEAS)
+</a></p>
+<p><a href="https://www.brown.edu/campus-life/support/counseling-and-psychological-services/">
+	Counseling and Psychological Services (CAPS)
+</a></p>
