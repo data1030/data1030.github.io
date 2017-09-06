@@ -43,7 +43,7 @@ title = "Homepage"
         </tr>
         <tr>
             <td>9/12</td>
-            <td>Algorithms and Data Structures</td>
+            <td>Algorithmic Complexity and Code Efficiency</td>
             <td>Assignment 1 due on 9/18</td>
         </tr>
         <tr>
