@@ -6,10 +6,22 @@
     <description>Recent content in Homepage on DATA 1030</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Sep 2017 03:33:48 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 18 Sep 2017 03:33:48 -0700</lastBuildDate>
     
 	<atom:link href="https://data1030.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Assignment 1</title>
+      <link>https://data1030.github.io/assignment/assignment-1/</link>
+      <pubDate>Mon, 18 Sep 2017 03:33:48 -0700</pubDate>
+      
+      <guid>https://data1030.github.io/assignment/assignment-1/</guid>
+      <description>Assignment 1: Computer Science Due Date: Monday, September 18, 2017 at 10 pm
+This assignment goes over essential computer science topics and software engineering practices with applications to data science.
+Make sure to clone your [Classroom repository]() and install Pycharm before lab on Tuesday.
+ Tuesday&amp;rsquo;s lab instructions Thursdays lab instructions Assignment 1 instructions  As another reminder, you will be submitting your completed files for both the labs and assignment to your GitHub repository at a1-computer-science-&amp;lt;YOUR_GITHUB_USERNAME&amp;gt;.</description>
+    </item>
     
     <item>
       <title>Assignment 0</title>
