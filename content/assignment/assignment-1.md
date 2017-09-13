@@ -14,7 +14,7 @@ draft: false
 This assignment goes over essential computer science topics and software
 engineering practices with applications to data science.
 
-Make sure to clone your [Classroom repository]()
+Make sure to clone your [Classroom repository](https://classroom.github.com/a/F3Q9PShM)
 and [install Pycharm](https://docs.google.com/a/brown.edu/document/d/1-be-XHwFqKFYyOXjDbW6WAiG8OERUl_nYNmYqVWzn1o/edit)
 before lab on Tuesday.
 
