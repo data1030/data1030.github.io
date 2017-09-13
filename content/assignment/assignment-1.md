@@ -22,7 +22,8 @@ before lab on Tuesday.
 * [Thursdays lab instructions](https://www.google.com/url?q=https://docs.google.com/document/u/1/d/1-yIG-5HzkAxUOhOp_EQC0VIlwvaXsYRszygpiYGP3FQ/edit)
 * [Assignment 1 instructions](https://docs.google.com/document/d/1XFy_pNObZvtEy58lavlM4pLrn4WfEjPQJ-hYJOKIh68/edit)
 
-<a href="/notebook/lab1a_solutions.ipynb"Tuesday's lab solutions</a>
+The solutions for Tuesday's lab notebook are here:
+<a href="/notebook/lab1a_solutions.ipynb" download>Tuesday's lab solutions</a>
 
 As another reminder, you will be submitting your completed files for __both__ the
 labs and assignment to your GitHub repository at
