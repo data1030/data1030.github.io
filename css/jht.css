@@ -1,0 +1,113 @@
+body {
+    font-family: 'Constantia', 'Georgia', serif;
+	font-size: 100%;
+    margin-left:auto;
+    margin-right:auto;
+	max-width: 53em;
+    padding-left: 3em;
+	color: #343434; /* Jet Black */
+	background-color: #FCFCFC; /* Off white */
+	
+	/* Can't seem to get ligatures to work... */
+
+}
+
+p {
+    text-align: justify;
+    max-width: 40em;
+}
+
+li {
+    max-width: 38em;
+}
+
+.teaserimage {
+    -ms-interpolation-mode: bicubic;
+    width: 40em;
+}
+
+.hyphenate {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+h1 {
+	font-size: 2em;
+    /* border-top: 1px solid #ddd; */
+    margin-top: 1em;
+	font-weight: normal;
+	font-style: normal;
+    max-width: 40em;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.5em;
+    /* border-top: 1px solid #ddd; */
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+th {
+    text-align: left;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+}
+
+.totalrow {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    border-top: 1px solid #ddd;
+}
+
+table {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    table-layout: fixed;
+}
+
+td {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border: inherit;
+    vertical-align: top;
+    white-space: nowrap;    
+}
+
+.schedule {
+    border-bottom: 1px solid #ddd;
+}
+
+.schedulesection {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #ddd;
+    /* background-color: #579789; */
+}
+
+.sc {
+font-family: 'Constantia', 'Georgia', serif;
+font-style: normal;
+-moz-hyphens: none;
+-webkit-hyphens: none;
+-o-hyphens: none;
+-ms-hyphens: none;
+hyphens: none;
+letter-spacing: 1px;
+}
+
+a:link {color: #900020; text-decoration: none; }
+a:active {color: #673147; text-decoration: underline; }
+a:visited {color: #673147; text-decoration: none; }
+a:hover {color: #900020; text-decoration: underline; }
