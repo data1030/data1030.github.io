@@ -27,7 +27,6 @@ navbar-links:
   Assignments: "assignments"
   Schedule: "schedule"
   Resources:
-    - Data Gymnasia: "https://mathigon.org/data-gymnasia"
     - Piazza: "https://piazza.com/class/jzioyk40mhs6r2#"
     - JupyterHub: "https://data.jupyter.brown.edu"
   Reference:
