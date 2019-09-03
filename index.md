@@ -24,7 +24,7 @@ HTAs: TBD
 ## Contact Info
 
 *   [Piazza](https://piazza.com/class/jzioyk40mhs6r2#)—your first stop for questions and clarifications.
-*   dsi1030tas@lists.brown.edu
+*   data1030tas@lists.brown.edu
 *   data1030headtas@lists.brown.edu
 
 ## Open Hours
