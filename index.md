@@ -19,7 +19,6 @@ HTAs: TBD
 
 *   [Course Syllabus](https://coursetools.brown.edu/syllabus/DATA:1030:2019-Fall:S01)
 *   [Course Outline](https://docs.google.com/document/d/1uwi4kGQ--dsZVnODHxrQtkoC4jVo5Z6X7jLPb8yDmYg/edit)
-*   Collaboration Policy [REQUIRED ACTION - TBD]
 *   [Jupyterhub manual](https://docs.ccv.brown.edu/jupyterhub/)
 
 ## Contact Info
