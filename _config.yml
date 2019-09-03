@@ -31,7 +31,8 @@ navbar-links:
     - JupyterHub: "https://data.jupyter.brown.edu"
   Reference:
     - Python Data Science Handbook: "https://jakevdp.github.io/PythonDataScienceHandbook/"
-    - Syllabus: "https://docs.google.com/document/d/1uwi4kGQ--dsZVnODHxrQtkoC4jVo5Z6X7jLPb8yDmYg"
+    - Syllabus: "https://coursetools.brown.edu/syllabus/DATA:1030:2019-Fall:S01"
+    - Course Outline: "https://docs.google.com/document/d/1uwi4kGQ--dsZVnODHxrQtkoC4jVo5Z6X7jLPb8yDmYg"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the #navbar
@@ -46,7 +47,7 @@ title-img: "/img/dsi-logo.png"
 # By default, the navigation bar and footer have a light gray background, and the main page
 # has a white background. You can specify a different background colour or a background image
 # for the navigation bar, the main page, and the footer.
-navbar-col: "#c9c9c9"
+navbar-col: "#98FB98"
 # navbar-img: "/img/bgimage.png"
 # footer-col: "blue"
 # footer-img: "/img/bgimage.png"
