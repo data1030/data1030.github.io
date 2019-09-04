@@ -12,7 +12,9 @@ use-site-title: true
 Lecture Time: TTh 1pm-2:20pm  
 Lecture Room: [CIT Center (Thomas Watson CIT) 227](https://goo.gl/maps/9P7GufeMQdE2)  
 Instructor: [Andras Zsom](https://ccv.brown.edu/about/#people)  
+
 HTAs: Angie Kim, Mickey Li
+
 TAs: Sunny Deng, Liyaan Maskati, Natalie Delworth, EJ Zhu  
 
 ## Important Docs
