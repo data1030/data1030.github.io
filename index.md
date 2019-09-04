@@ -12,8 +12,8 @@ use-site-title: true
 Lecture Time: TTh 1pm-2:20pm  
 Lecture Room: [CIT Center (Thomas Watson CIT) 227](https://goo.gl/maps/9P7GufeMQdE2)  
 Instructor: [Andras Zsom](https://ccv.brown.edu/about/#people)  
-TAs: Sunny Deng, Liyaan Maskati, Natalie Delworth, EJ Zhu, Mickey Li, Angie Kim  
-HTAs: TBD
+TAs: Sunny Deng, Liyaan Maskati, Natalie Delworth, EJ Zhu  
+HTAs: Angie Kim, Mickey Li
 
 ## Important Docs
 
@@ -27,9 +27,15 @@ HTAs: TBD
 *   data1030tas@lists.brown.edu
 *   data1030headtas@lists.brown.edu
 
-## Open Hours
+## TA Office Hours
 
-TBD
+*   Monday 6-8pm
+*   Tuesday 6-8pm
+*   Friday 4-6pm
+
+##  Instructor Office Hour
+
+*   Thursday 3-4pm
 
 ## Diversity and Inclusion
 
