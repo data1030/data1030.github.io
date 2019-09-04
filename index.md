@@ -23,8 +23,9 @@ HTAs: Angie Kim, Mickey Li
 
 ## Contact Info
 
-*   [Piazza](https://piazza.com/class/jzioyk40mhs6r2#)—your first stop for questions and clarifications.
-*   dsi1030tas@lists.brown.edu
+*   [Piazza](https://piazza.com/class/jzioyk40mhs6r2#) — your first stop for questions and clarifications.
+*   dsi1030tas@lists.brown.edu - your second stop
+*   dsi1030headtas@lists.brown.edu - your third stop
 
 ## TA Office Hours
 
