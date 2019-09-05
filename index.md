@@ -20,6 +20,7 @@ HTAs: Angie Kim, Mickey Li
 *   [Course Syllabus](https://coursetools.brown.edu/syllabus/DATA:1030:2019-Fall:S01)
 *   [Course Outline](https://docs.google.com/document/d/1uwi4kGQ--dsZVnODHxrQtkoC4jVo5Z6X7jLPb8yDmYg/edit)
 *   [Jupyterhub manual](https://docs.ccv.brown.edu/jupyterhub/)
+*   [Canvas](https://canvas.brown.edu/courses/1079085)
 
 ## Contact Info
 
@@ -29,13 +30,13 @@ HTAs: Angie Kim, Mickey Li
 
 ## TA Office Hours
 
-*   Monday 6-8pm
-*   Tuesday 6-8pm
-*   Friday 4-6pm
+*   Monday 6-8pm in 320, DSI floor
+*   Tuesday 6-8pm in 320, DSI floor
+*   Friday 4-6pm in 329, DSI floor
 
 ##  Instructor Office Hour
 
-*   Thursday 3-4pm
+*   Thursday 3-4pm in 320, DSI floor
 
 ## Diversity and Inclusion
 
