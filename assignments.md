@@ -8,4 +8,6 @@ title: Assignments
   *  [**Homework 0 due September 18th, 10pm**](https://classroom.github.com/a/riWfmfo6l)
  
   *  [**Homework 1 due September 25th, 10pm**](https://classroom.github.com/a/ybnQl0xN)
+  
+  *  [**Homework 2 due  October 2nd, 10pm**](https://classroom.github.com/a/D3x_WqS4)
  
