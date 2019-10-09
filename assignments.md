@@ -12,3 +12,5 @@ title: Assignments
   *  [**Homework 2 due  October 2nd, 10pm**](https://classroom.github.com/a/D3x_WqS4)
  
   *  [**Homework 3 due  October 9nd, 10pm**](https://classroom.github.com/a/8m4cqJs7)
+
+  *  [**Homework 4 due  October 16nd, 10pm**](https://classroom.github.com/a/A8f4qORL)
