@@ -18,3 +18,5 @@ title: Assignments
   *  [**Homework 5 due  November 6th, 10pm**](https://classroom.github.com/a/sPrhN-BO)
 
   *  [**Homework 6 due  November 13th, 10pm**](https://classroom.github.com/a/ZfqeZUxL)
+
+  *  [**Homework 7 due  November 20th, 10pm**](https://classroom.github.com/a/c5LG2Ghs)
