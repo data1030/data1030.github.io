@@ -9,34 +9,29 @@ use-site-title: true
 
 ## Course Info
 
-Lecture Time: TTh 1pm-2:20pm  
-Lecture Room: [CIT Center (Thomas Watson CIT) 227](https://goo.gl/maps/9P7GufeMQdE2)  
+Lecture Time: TTh 10:30am-11:50am   
+Lecture Room: [Smith-Buonanno Hall 106](https://brown.edu/Facilities/Facilities_Management/maps/index.php#building/SMITH-BUON)  
 Instructor: [Andras Zsom](https://ccv.brown.edu/about/#people)  
-TAs: Sunny Deng, Liyaan Maskati, Natalie Delworth, EJ Zhu  
-HTAs: Angie Kim, Mickey Li
+TAs: Cangcheng Tang, Peter Huang, Qinyun Wu, Tina Wang, Zhujun Shen
+HTAs: Juho Choi
 
 ## Important Docs
 
-*   [Course Syllabus](https://coursetools.brown.edu/syllabus/DATA:1030:2019-Fall:S01)
-*   [Course Outline](https://docs.google.com/document/d/1uwi4kGQ--dsZVnODHxrQtkoC4jVo5Z6X7jLPb8yDmYg/edit)
-*   [Jupyterhub manual](https://docs.ccv.brown.edu/jupyterhub/)
-*   [Canvas](https://canvas.brown.edu/courses/1079085)
+*   [Canvas](https://canvas.brown.edu/courses/1082531)
 
 ## Contact Info
 
-*   [Piazza](https://piazza.com/class/jzioyk40mhs6r2#) — your first stop for questions and clarifications.
+*   [Piazza](piazza.com/brown/fall2020/fall2020data1030s01) — your first stop for questions and clarifications.
 *   dsi1030tas@lists.brown.edu - your second stop
 *   dsi1030headtas@lists.brown.edu - your third stop
 
 ## TA Office Hours
 
-*   Monday 6-8pm in 320, DSI floor
-*   Tuesday 6-8pm in 320, DSI floor
-*   Friday 4-6pm in 329, DSI floor
+*   TBD
 
 ##  Instructor Office Hour
 
-*   Thursday 3-4pm in 320, DSI floor
+*   Tuesday 1-3pm, location TBD
 
 ## Diversity and Inclusion
 
